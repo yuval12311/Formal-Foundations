@@ -200,7 +200,10 @@ Hint Unfold stuck : core.
 Example some_term_is_stuck :
   exists t, stuck t.
 Proof.
-  (* FILL IN HERE *) Admitted.
+  exists  <{if 0 then true else false }>. split.
+  - intros []. inversion H; subst. inversion H4.
+  - intros H. inversion H; inversion H0.
+Qed.
 (** [] *)
 
 (** However, although values and normal forms are _not_ the same in
@@ -212,7 +215,10 @@ Proof.
 Lemma value_is_nf : forall t,
   value t -> step_normal_form t.
 Proof.
-  (* FILL IN HERE *) Admitted.
+  intros t []; induction H; intros []; try (inversion H).
+  - subst. inversion H0. inversion H2.
+  - inversion H0. subst. apply IHnvalue. exists t1'. apply H4.
+Qed.
 
 (** (Hint: You will reach a point in this proof where you need to
     use an induction to reason about a term that is known to be a
@@ -399,7 +405,20 @@ Proof.
     + (* t1 can take a step *)
       destruct H as [t1' H1].
       exists (<{ if t1' then t2 else t3 }>). auto.
-  (* FILL IN HERE *) Admitted.
+  - destruct IHHT.
+    + left. right. apply (nat_canonical t1 HT) in H. apply nv_succ. apply H.
+    + right. destruct H. exists ( <{ succ x}>). apply ST_Succ. apply H.
+  -  destruct IHHT.
+    + right.  apply (nat_canonical t1 HT) in H. destruct H.
+      * exists <{0}>. apply ST_Pred0.
+      * exists t. apply ST_PredSucc. apply H.
+    + right. destruct H. exists ( <{ pred x }>). apply ST_Pred. apply H.
+  - right. destruct IHHT.
+    + apply (nat_canonical t1 HT) in H. destruct H.
+      *exists <{true}>. apply ST_Iszero0.
+      *exists <{false}>. apply ST_IszeroSucc. apply H.
+    + destruct H. exists <{iszero x}>. apply ST_Iszero. apply H.
+Qed.
 (** [] *)
 
 (** **** Exercise: 3 stars, advanced, optional (finish_progress_informal)
@@ -468,7 +487,14 @@ Proof.
       + (* ST_IfFalse *) assumption.
       + (* ST_If *) apply T_If; try assumption.
         apply IHHT1; assumption.
-    (* FILL IN HERE *) Admitted.
+    - inversion HE; subst. apply T_Succ. apply IHHT in H0. apply H0.
+    - inversion HE; subst. 
+      + apply HT.
+      + destruct H0. apply T_0. inversion HT. apply H1.
+      + apply IHHT in H0. apply T_Pred. apply H0.
+    -inversion HE; subst; auto.
+Qed.
+    (* FILL IN HERE *) 
 (** [] *)
 
 (** **** Exercise: 3 stars, advanced, optional (finish_preservation_informal)
@@ -568,7 +594,13 @@ Theorem subject_expansion:
   \/
   ~ (forall t t' T, t --> t' /\ |- t' \in T -> |- t \in T).
 Proof.
-  (* FILL IN HERE *) Admitted.
+  right.  intros H. specialize (H <{if true then 0 else false}> <{0}> Nat). 
+  assert (|- <{ if true then 0 else false }> \in Nat -> False).
+  -intros. inversion H0; subst. inversion H7.
+  -apply H0. apply H. split.
+    + apply ST_IfTrue.
+    + apply T_0.
+Qed.
 (** [] *)
 
 (** **** Exercise: 2 stars, standard, optional (variation1)
