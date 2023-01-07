@@ -1,0 +1,2891 @@
+DIGEST daf42da0a56136aa9f1756bb8011873c
+FLF.MoreFP
+R429:437 Coq.Bool.Bool <> <> lib
+R464:477 Coq.Strings.String <> <> lib
+R504:514 Coq.Arith.Arith <> <> lib
+R541:544 Coq.Lists.List <> <> lib
+R555:567 Coq.Lists.List ListNotations <> mod
+R619:624 Coq.funind.Recdef <> <> lib
+sec 636:641 <> Monads
+rec 1982:1985 <> Show
+proj 2009:2012 <> show
+binder 1988:1988 <> A:1
+R2017:2020 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2016:2016 LF.MoreFP <> A:1 var
+R2021:2026 Coq.Strings.String <> string ind
+inst 2723:2730 <> showBool
+R2734:2737 LF.MoreFP <> Show class
+R2739:2742 Coq.Init.Datatypes <> bool ind
+R2755:2758 LF.MoreFP <> show meth
+R2769:2772 Coq.Init.Datatypes <> bool ind
+binder 2767:2767 <> b:4
+R2780:2780 LF.MoreFP <> b:4 var
+R2824:2827 LF.MoreFP <> show meth
+R2829:2832 Coq.Init.Datatypes <> true constr
+ind 2994:3000 <> primary
+constr 3005:3007 <> Red
+constr 3011:3015 <> Green
+constr 3019:3022 <> Blue
+inst 3035:3045 <> showPrimary
+R3049:3052 LF.MoreFP <> Show class
+R3054:3060 LF.MoreFP <> primary ind
+R3073:3076 LF.MoreFP <> show meth
+R3093:3099 LF.MoreFP <> primary ind
+binder 3091:3091 <> c:7
+R3118:3118 LF.MoreFP <> c:7 var
+R3135:3137 LF.MoreFP <> Red constr
+R3158:3162 LF.MoreFP <> Green constr
+R3185:3188 LF.MoreFP <> Blue constr
+R3226:3229 LF.MoreFP <> show meth
+R3231:3235 LF.MoreFP <> Green constr
+R3339:3342 LF.MoreFP <> show meth
+R3344:3347 Coq.Init.Datatypes <> true constr
+R3741:3744 LF.MoreFP <> show meth
+def 3952:3961 <> num2string
+R3968:3970 Coq.Init.Datatypes <> nat ind
+binder 3964:3964 <> d:9
+R3975:3980 Coq.Strings.String <> string ind
+R3994:3994 LF.MoreFP <> d:9 var
+def 4301:4317 <> string_of_nat_aux
+R4324:4326 Coq.Init.Datatypes <> nat ind
+binder 4320:4320 <> n:11
+R4336:4341 Coq.Strings.String <> string ind
+binder 4330:4332 <> acc:12
+R4346:4351 Coq.Strings.String <> string ind
+R4391:4394 Coq.Strings.String <> ::string_scope:x_'++'_x not
+R4370:4379 LF.MoreFP <> num2string def
+R4383:4387 Coq.Arith.PeanoNat <> ::nat_scope:x_'mod'_x not
+R4382:4382 LF.MoreFP <> n:11 var
+R4395:4397 LF.MoreFP <> acc:12 var
+binder 4362:4365 <> acc':14
+R4413:4415 Coq.Arith.PeanoNat <> ::nat_scope:x_'/'_x not
+R4412:4412 LF.MoreFP <> n:11 var
+R4437:4440 LF.MoreFP <> acc':14 var
+R4456:4472 LF.MoreFP <> string_of_nat_aux:13 def
+R4477:4480 LF.MoreFP <> acc':14 var
+def 4630:4646 <> string_of_nat_aux
+R4661:4663 Coq.Init.Datatypes <> nat ind
+binder 4652:4655 <> fuel:15
+binder 4657:4657 <> n:16
+R4673:4678 Coq.Strings.String <> string ind
+binder 4667:4669 <> acc:17
+R4683:4688 Coq.Strings.String <> string ind
+R4701:4704 LF.MoreFP <> fuel:15 var
+R4736:4736 Coq.Init.Datatypes <> S constr
+R4788:4791 Coq.Strings.String <> ::string_scope:x_'++'_x not
+R4767:4776 LF.MoreFP <> num2string def
+R4780:4784 Coq.Arith.PeanoNat <> ::nat_scope:x_'mod'_x not
+R4779:4779 LF.MoreFP <> n:16 var
+R4792:4794 LF.MoreFP <> acc:17 var
+binder 4759:4762 <> acc':20
+R4816:4818 Coq.Arith.PeanoNat <> ::nat_scope:x_'/'_x not
+R4815:4815 LF.MoreFP <> n:16 var
+R4846:4849 LF.MoreFP <> acc':20 var
+R4871:4887 LF.MoreFP <> string_of_nat_aux:18 def
+R4898:4901 LF.MoreFP <> acc':20 var
+def 5159:5171 <> string_of_nat
+R5178:5180 Coq.Init.Datatypes <> nat ind
+binder 5174:5174 <> n:21
+R5185:5190 Coq.Strings.String <> string ind
+R5197:5213 LF.MoreFP <> string_of_nat_aux def
+R5216:5216 Coq.Init.Datatypes <> S constr
+R5218:5218 LF.MoreFP <> n:21 var
+R5221:5221 LF.MoreFP <> n:21 var
+R5326:5328 Coq.Init.Datatypes <> nat ind
+binder 5322:5322 <> n:22
+R5338:5343 Coq.Strings.String <> string ind
+binder 5332:5334 <> acc:23
+R5418:5421 Coq.Strings.String <> ::string_scope:x_'++'_x not
+R5397:5406 LF.MoreFP <> num2string def
+R5410:5414 Coq.Arith.PeanoNat <> ::nat_scope:x_'mod'_x not
+R5409:5409 LF.MoreFP <> n:22 var
+R5422:5424 LF.MoreFP <> acc:23 var
+binder 5389:5392 <> acc':25
+R5437:5437 LF.MoreFP <> n:22 var
+R5455:5458 LF.MoreFP <> acc':25 var
+R5478:5480 Coq.Arith.PeanoNat <> ::nat_scope:x_'/'_x not
+R5477:5477 LF.MoreFP <> n:22 var
+R5507:5510 LF.MoreFP <> acc':25 var
+R5531:5544 LF.MoreFP <> digits_no_fuel:24 def
+R5549:5552 LF.MoreFP <> acc':25 var
+binder 5322:5322 <> n:27
+binder 5332:5334 <> acc:28
+binder 5322:5322 <> n:29
+binder 5332:5334 <> acc:30
+binder 5322:5322 <> n:32
+binder 5332:5334 <> acc:33
+R5418:5421 Coq.Strings.String <> ::string_scope:x_'++'_x not
+R5397:5406 LF.MoreFP <> num2string def
+R5410:5414 Coq.Arith.PeanoNat <> ::nat_scope:x_'mod'_x not
+R5409:5409 LF.MoreFP <> n:32 var
+R5422:5424 LF.MoreFP <> acc:33 var
+binder 5389:5392 <> acc':34
+R5437:5437 LF.MoreFP <> n:32 var
+R5455:5458 LF.MoreFP <> acc':34 var
+R5478:5480 Coq.Arith.PeanoNat <> ::nat_scope:x_'/'_x not
+R5477:5477 LF.MoreFP <> n:32 var
+R5507:5510 LF.MoreFP <> acc':34 var
+R5531:5544 LF.MoreFP <> digits_no_fuel:31 def
+R5549:5552 LF.MoreFP <> acc':34 var
+binder 5322:5322 <> n:36
+binder 5332:5334 <> acc:37
+binder 5322:5322 <> n:38
+binder 5332:5334 <> acc:39
+R5418:5421 Coq.Strings.String <> ::string_scope:x_'++'_x not
+R5397:5406 LF.MoreFP <> num2string def
+R5410:5414 Coq.Arith.PeanoNat <> ::nat_scope:x_'mod'_x not
+R5409:5409 LF.MoreFP <> n:38 var
+R5422:5424 LF.MoreFP <> acc:39 var
+binder 5389:5392 <> acc':40
+R5437:5437 LF.MoreFP <> n:38 var
+R5455:5458 LF.MoreFP <> acc':40 var
+R5478:5480 Coq.Arith.PeanoNat <> ::nat_scope:x_'/'_x not
+R5477:5477 LF.MoreFP <> n:38 var
+R5507:5510 LF.MoreFP <> acc':40 var
+R5531:5544 LF.MoreFP <> digits_no_fuel:31 def
+R5549:5552 LF.MoreFP <> acc':40 var
+R5367:5369 Coq.Init.Datatypes <> nat ind
+binder 5363:5363 <> x:43
+R5374:5374 LF.MoreFP <> x:43 var
+R5616:5625 Coq.Arith.PeanoNat Nat div_lt thm
+R5616:5625 Coq.Arith.PeanoNat Nat div_lt thm
+R5638:5650 Coq.Arith.PeanoNat Nat lt_0_succ thm
+R5638:5650 Coq.Arith.PeanoNat Nat lt_0_succ thm
+R5663:5672 Coq.Arith.PeanoNat Nat leb_le thm
+R5663:5672 Coq.Arith.PeanoNat Nat leb_le thm
+def 5709:5729 <> string_of_nat_no_fuel
+R5736:5738 Coq.Init.Datatypes <> nat ind
+binder 5732:5732 <> n:66
+R5743:5748 Coq.Strings.String <> string ind
+R5755:5768 LF.MoreFP <> digits_no_fuel thm
+R5770:5770 LF.MoreFP <> n:66 var
+inst 5851:5857 <> showNat
+R5861:5864 LF.MoreFP <> Show class
+R5866:5868 Coq.Init.Datatypes <> nat ind
+R5881:5884 LF.MoreFP <> show meth
+R5889:5901 LF.MoreFP <> string_of_nat def
+R5917:5920 LF.MoreFP <> show meth
+R5957:5960 LF.MoreFP <> show meth
+R6000:6003 LF.MoreFP <> show meth
+R6006:6006 Coq.Init.Datatypes <> S constr
+R6009:6009 Coq.Init.Datatypes <> S constr
+R6048:6051 LF.MoreFP <> show meth
+R6059:6061 Coq.Init.Peano <> ::nat_scope:x_'+'_x not
+R6055:6057 Coq.Init.Peano <> ::nat_scope:x_'+'_x not
+inst 6364:6371 <> showPair
+binder 6374:6374 <> A:67
+binder 6376:6376 <> B:68
+R6397:6400 LF.MoreFP <> Show class
+R6402:6402 LF.MoreFP <> A:67 var
+binder 6389:6393 <> showA:69
+R6414:6417 LF.MoreFP <> Show class
+R6419:6419 LF.MoreFP <> B:68 var
+binder 6406:6410 <> showB:70
+R6424:6427 LF.MoreFP <> Show class
+R6431:6431 Coq.Init.Datatypes <> ::type_scope:x_'*'_x not
+R6430:6430 LF.MoreFP <> A:67 var
+R6432:6432 LF.MoreFP <> B:68 var
+R6443:6446 LF.MoreFP <> show meth
+binder 6456:6456 <> p:71
+R6467:6491 Coq.Strings.String <> ::string_scope:x_'++'_x not
+R6492:6492 Coq.Strings.String <> ::string_scope:x_'++'_x not
+R6505:6530 Coq.Strings.String <> ::string_scope:x_'++'_x not
+R6493:6496 LF.MoreFP <> show meth
+R6499:6501 Coq.Init.Datatypes <> fst def
+R6503:6503 LF.MoreFP <> p:71 var
+R6534:6557 Coq.Strings.String <> ::string_scope:x_'++'_x not
+R6558:6558 Coq.Strings.String <> ::string_scope:x_'++'_x not
+R6571:6596 Coq.Strings.String <> ::string_scope:x_'++'_x not
+R6559:6562 LF.MoreFP <> show meth
+R6565:6567 Coq.Init.Datatypes <> snd def
+R6569:6569 LF.MoreFP <> p:71 var
+R6787:6790 LF.MoreFP <> show meth
+R6792:6792 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R6794:6794 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R6796:6796 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R6835:6838 LF.MoreFP <> show meth
+R6840:6840 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R6845:6845 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R6848:6848 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R6841:6844 Coq.Init.Datatypes <> true constr
+inst 7080:7088 <> showPair'
+binder 7091:7091 <> A:72
+binder 7093:7093 <> B:73
+R7111:7114 LF.MoreFP <> Show class
+R7116:7116 LF.MoreFP <> A:72 var
+R7124:7127 LF.MoreFP <> Show class
+R7129:7129 LF.MoreFP <> B:73 var
+R7134:7137 LF.MoreFP <> Show class
+R7141:7141 Coq.Init.Datatypes <> ::type_scope:x_'*'_x not
+R7140:7140 LF.MoreFP <> A:72 var
+R7142:7142 LF.MoreFP <> B:73 var
+R7153:7156 LF.MoreFP <> show meth
+binder 7166:7166 <> p:74
+R7177:7201 Coq.Strings.String <> ::string_scope:x_'++'_x not
+R7202:7202 Coq.Strings.String <> ::string_scope:x_'++'_x not
+R7215:7240 Coq.Strings.String <> ::string_scope:x_'++'_x not
+R7203:7206 LF.MoreFP <> show meth
+R7209:7211 Coq.Init.Datatypes <> fst def
+R7213:7213 LF.MoreFP <> p:74 var
+R7244:7267 Coq.Strings.String <> ::string_scope:x_'++'_x not
+R7268:7268 Coq.Strings.String <> ::string_scope:x_'++'_x not
+R7281:7306 Coq.Strings.String <> ::string_scope:x_'++'_x not
+R7269:7272 LF.MoreFP <> show meth
+R7275:7277 Coq.Init.Datatypes <> snd def
+R7279:7279 LF.MoreFP <> p:74 var
+def 7366:7376 <> showListAux
+binder 7379:7379 <> A:75
+R7398:7401 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R7397:7397 LF.MoreFP <> A:75 var
+R7402:7407 Coq.Strings.String <> string ind
+binder 7393:7393 <> s:76
+R7415:7418 Coq.Init.Datatypes <> list ind
+R7420:7420 LF.MoreFP <> A:75 var
+binder 7411:7411 <> l:77
+R7425:7430 Coq.Strings.String <> string ind
+R7443:7443 LF.MoreFP <> l:77 var
+R7456:7458 Coq.Init.Datatypes <> nil constr
+R7472:7475 Coq.Init.Datatypes <> cons constr
+R7479:7481 Coq.Init.Datatypes <> nil constr
+R7486:7486 LF.MoreFP <> s:76 var
+R7496:7499 Coq.Init.Datatypes <> cons constr
+R7508:7508 Coq.Strings.String <> ::string_scope:x_'++'_x not
+R7512:7516 Coq.Strings.String <> ::string_scope:x_'++'_x not
+R7509:7509 LF.MoreFP <> s:76 var
+R7521:7525 Coq.Strings.String <> ::string_scope:x_'++'_x not
+R7541:7541 Coq.Strings.String <> ::string_scope:x_'++'_x not
+R7526:7536 LF.MoreFP <> showListAux:78 def
+R7538:7538 LF.MoreFP <> s:76 var
+inst 7560:7567 <> showList
+binder 7570:7570 <> A:80
+R7585:7588 LF.MoreFP <> Show class
+R7590:7590 LF.MoreFP <> A:80 var
+R7595:7598 LF.MoreFP <> Show class
+R7601:7604 Coq.Init.Datatypes <> list ind
+R7606:7606 LF.MoreFP <> A:80 var
+R7620:7623 LF.MoreFP <> show meth
+binder 7625:7625 <> l:81
+R7633:7636 Coq.Strings.String <> ::string_scope:x_'++'_x not
+R7637:7637 Coq.Strings.String <> ::string_scope:x_'++'_x not
+R7656:7660 Coq.Strings.String <> ::string_scope:x_'++'_x not
+R7638:7648 LF.MoreFP <> showListAux def
+R7655:7655 LF.MoreFP <> l:81 var
+R7650:7653 LF.MoreFP <> show meth
+R7680:7683 LF.MoreFP <> show meth
+R7685:7685 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R7687:7687 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R7689:7689 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R7691:7691 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R7738:7741 LF.MoreFP <> show meth
+R7743:7743 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R7748:7748 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R7753:7753 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R7744:7747 Coq.Init.Datatypes <> true constr
+R7749:7752 Coq.Init.Datatypes <> true constr
+rec 8304:8305 <> Eq
+proj 8329:8331 <> eqb
+binder 8308:8308 <> A:82
+R8335:8338 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R8334:8334 LF.MoreFP <> A:82 var
+R8340:8343 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R8339:8339 LF.MoreFP <> A:82 var
+R8344:8347 Coq.Init.Datatypes <> bool ind
+R8378:8380 LF.MoreFP <> eqb meth
+not 8365:8365 Monads :::x_'=?'_x
+inst 8455:8460 <> eqBool
+R8464:8465 LF.MoreFP <> Eq class
+R8467:8470 Coq.Init.Datatypes <> bool ind
+R8483:8485 LF.MoreFP <> eqb meth
+R8501:8504 Coq.Init.Datatypes <> bool ind
+binder 8495:8495 <> b:85
+binder 8497:8497 <> c:86
+R8523:8523 LF.MoreFP <> b:85 var
+R8541:8544 Coq.Init.Datatypes <> true constr
+R8550:8550 LF.MoreFP <> c:86 var
+R8563:8567 Coq.Init.Datatypes <> false constr
+R8572:8575 Coq.Init.Datatypes <> negb def
+R8577:8577 LF.MoreFP <> c:86 var
+inst 8605:8609 <> eqNat
+R8613:8614 LF.MoreFP <> Eq class
+R8616:8618 Coq.Init.Datatypes <> nat ind
+R8631:8633 LF.MoreFP <> eqb meth
+R8638:8644 Coq.Arith.PeanoNat Nat eqb def
+def 8660:8668 <> eqBool_ex
+R8672:8672 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R8691:8694 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R8677:8680 LF.MoreFP Monads :::x_'=?'_x not
+R8673:8676 Coq.Init.Datatypes <> true constr
+R8681:8684 Coq.Init.Datatypes <> negb def
+R8686:8690 Coq.Init.Datatypes <> false constr
+R8695:8698 Coq.Init.Datatypes <> true constr
+def 8735:8742 <> eqNat_ex
+R8746:8746 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R8760:8763 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R8748:8751 LF.MoreFP Monads :::x_'=?'_x not
+R8755:8757 Coq.Init.Peano <> ::nat_scope:x_'-'_x not
+R8764:8768 Coq.Init.Datatypes <> false constr
+inst 9120:9129 <> eqBoolBool
+R9133:9134 LF.MoreFP <> Eq class
+R9141:9142 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R9137:9140 Coq.Init.Datatypes <> bool ind
+R9143:9146 Coq.Init.Datatypes <> bool ind
+R9160:9162 LF.MoreFP <> eqb meth
+binder 9171:9171 <> f:88
+binder 9173:9173 <> g:89
+R9187:9187 Coq.Init.Datatypes <> ::bool_scope:x_'&&'_x not
+R9204:9209 Coq.Init.Datatypes <> ::bool_scope:x_'&&'_x not
+R9228:9228 Coq.Init.Datatypes <> ::bool_scope:x_'&&'_x not
+R9194:9197 LF.MoreFP Monads :::x_'=?'_x not
+R9188:9188 LF.MoreFP <> f:88 var
+R9190:9193 Coq.Init.Datatypes <> true constr
+R9198:9198 LF.MoreFP <> g:89 var
+R9200:9203 Coq.Init.Datatypes <> true constr
+R9217:9220 LF.MoreFP Monads :::x_'=?'_x not
+R9210:9210 LF.MoreFP <> f:88 var
+R9212:9216 Coq.Init.Datatypes <> false constr
+R9221:9221 LF.MoreFP <> g:89 var
+R9223:9227 Coq.Init.Datatypes <> false constr
+def 9244:9257 <> eqBoolBool_ex1
+R9301:9303 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R9261:9263 LF.MoreFP <> eqb meth
+binder 9275:9275 <> x:90
+R9280:9283 Coq.Init.Datatypes <> negb def
+R9286:9289 Coq.Init.Datatypes <> negb def
+R9292:9295 Coq.Init.Datatypes <> negb def
+R9297:9297 LF.MoreFP <> x:90 var
+R9265:9268 Coq.Init.Datatypes <> negb def
+R9304:9307 Coq.Init.Datatypes <> true constr
+def 9343:9356 <> eqBoolBool_ex2
+R9393:9395 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R9360:9362 LF.MoreFP <> eqb meth
+binder 9374:9374 <> x:91
+R9379:9382 Coq.Init.Datatypes <> negb def
+R9385:9388 Coq.Init.Datatypes <> negb def
+R9390:9390 LF.MoreFP <> x:91 var
+R9364:9367 Coq.Init.Datatypes <> negb def
+R9396:9400 Coq.Init.Datatypes <> false constr
+def 9436:9449 <> eqBoolBool_ex3
+R9466:9468 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R9453:9455 LF.MoreFP <> eqb meth
+R9462:9465 Coq.Init.Datatypes <> negb def
+R9457:9460 Coq.Init.Datatypes <> negb def
+R9469:9472 Coq.Init.Datatypes <> true constr
+inst 9566:9571 <> eqPair
+binder 9574:9574 <> A:92
+binder 9576:9576 <> B:93
+R9591:9592 LF.MoreFP <> Eq class
+R9594:9594 LF.MoreFP <> A:92 var
+R9602:9603 LF.MoreFP <> Eq class
+R9605:9605 LF.MoreFP <> B:93 var
+R9610:9611 LF.MoreFP <> Eq class
+R9615:9617 Coq.Init.Datatypes <> ::type_scope:x_'*'_x not
+R9614:9614 LF.MoreFP <> A:92 var
+R9618:9618 LF.MoreFP <> B:93 var
+R9632:9634 LF.MoreFP <> eqb meth
+binder 9636:9637 <> p1:94
+binder 9639:9640 <> p2:95
+R9668:9669 LF.MoreFP <> p1:94 var
+binder 9656:9658 <> p1a:96
+binder 9660:9662 <> p1b:97
+R9697:9698 LF.MoreFP <> p2:95 var
+binder 9685:9687 <> p2a:98
+binder 9689:9691 <> p2b:99
+R9709:9712 Coq.Init.Datatypes <> andb def
+R9731:9734 LF.MoreFP Monads :::x_'=?'_x not
+R9728:9730 LF.MoreFP <> p1b:97 var
+R9735:9737 LF.MoreFP <> p2b:99 var
+R9718:9721 LF.MoreFP Monads :::x_'=?'_x not
+R9715:9717 LF.MoreFP <> p1a:96 var
+R9722:9724 LF.MoreFP <> p2a:98 var
+def 9979:9984 <> eqlist
+binder 9987:9987 <> A:100
+R10000:10001 LF.MoreFP <> Eq class
+R10003:10003 LF.MoreFP <> A:100 var
+binder 9998:9998 <> e:101
+R10015:10018 Coq.Init.Datatypes <> list ind
+R10020:10020 LF.MoreFP <> A:100 var
+binder 10007:10008 <> l1:102
+binder 10010:10011 <> l2:103
+R10024:10027 Coq.Init.Datatypes <> bool ind
+R10044:10045 LF.MoreFP <> l2:103 var
+R10040:10041 LF.MoreFP <> l1:102 var
+R10060:10063 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R10070:10073 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R10080:10080 Coq.Init.Datatypes <> ::bool_scope:x_'&&'_x not
+R10089:10093 Coq.Init.Datatypes <> ::bool_scope:x_'&&'_x not
+R10083:10086 LF.MoreFP Monads :::x_'=?'_x not
+R10094:10099 LF.MoreFP <> eqlist:104 def
+R10101:10101 LF.MoreFP <> e:101 var
+R10116:10117 Coq.Lists.List ListNotations ::list_scope:'['_']' not
+R10120:10121 Coq.Lists.List ListNotations ::list_scope:'['_']' not
+R10126:10129 Coq.Init.Datatypes <> true constr
+R10145:10149 Coq.Init.Datatypes <> false constr
+inst 10170:10175 <> eqList
+binder 10178:10178 <> A:107
+R10193:10194 LF.MoreFP <> Eq class
+R10196:10196 LF.MoreFP <> A:107 var
+binder 10189:10189 <> e:108
+R10201:10202 LF.MoreFP <> Eq class
+R10205:10208 Coq.Init.Datatypes <> list ind
+R10210:10210 LF.MoreFP <> A:107 var
+R10217:10219 LF.MoreFP <> eqb meth
+R10224:10229 LF.MoreFP <> eqlist def
+def 10244:10253 <> eqList_ex1
+R10276:10278 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R10257:10259 LF.MoreFP <> eqb meth
+R10269:10269 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R10271:10271 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R10273:10273 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R10275:10275 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R10261:10261 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R10263:10263 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R10265:10265 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R10267:10267 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R10279:10282 Coq.Init.Datatypes <> true constr
+def 10319:10328 <> eqList_ex2
+R10347:10349 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R10332:10334 LF.MoreFP <> eqb meth
+R10344:10344 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+R10346:10346 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+R10336:10336 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R10338:10338 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R10340:10340 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R10342:10342 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R10350:10354 Coq.Init.Datatypes <> false constr
+def 10391:10400 <> eqList_ex3
+R10461:10463 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R10404:10406 LF.MoreFP <> eqb meth
+R10435:10435 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R10447:10447 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R10460:10460 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R10436:10436 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R10441:10441 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R10446:10446 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R10437:10440 Coq.Init.Datatypes <> true constr
+R10442:10445 Coq.Init.Datatypes <> true constr
+R10448:10448 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R10454:10454 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R10459:10459 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R10449:10453 Coq.Init.Datatypes <> false constr
+R10455:10458 Coq.Init.Datatypes <> true constr
+R10408:10408 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R10420:10420 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R10433:10433 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R10409:10409 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R10414:10414 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R10419:10419 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R10410:10413 Coq.Init.Datatypes <> true constr
+R10415:10418 Coq.Init.Datatypes <> true constr
+R10421:10421 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R10427:10427 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R10432:10432 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R10422:10426 Coq.Init.Datatypes <> false constr
+R10428:10431 Coq.Init.Datatypes <> true constr
+R10464:10467 Coq.Init.Datatypes <> true constr
+def 10504:10513 <> eqList_ex4
+R10550:10552 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R10517:10519 LF.MoreFP <> eqb meth
+R10524:10524 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R10536:10536 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R10549:10549 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R10525:10525 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R10530:10530 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R10535:10535 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R10526:10529 Coq.Init.Datatypes <> true constr
+R10531:10534 Coq.Init.Datatypes <> true constr
+R10537:10537 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R10543:10543 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R10548:10548 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R10538:10542 Coq.Init.Datatypes <> false constr
+R10544:10547 Coq.Init.Datatypes <> true constr
+R10521:10522 Coq.Lists.List ListNotations ::list_scope:'['_']' not
+R10553:10557 Coq.Init.Datatypes <> false constr
+R10743:10746 LF.MoreFP <> Show class
+inst 10759:10765 <> showOpt
+binder 10768:10768 <> A:109
+R10783:10786 LF.MoreFP <> Show class
+R10788:10788 LF.MoreFP <> A:109 var
+R10793:10796 LF.MoreFP <> Show class
+R10799:10804 Coq.Init.Datatypes <> option ind
+R10806:10806 LF.MoreFP <> A:109 var
+R10816:10819 LF.MoreFP <> show meth
+binder 10821:10822 <> xs:110
+R10833:10834 LF.MoreFP <> xs:110 var
+R10849:10852 Coq.Init.Datatypes <> None constr
+R10872:10875 Coq.Init.Datatypes <> Some constr
+R10886:10889 Coq.Strings.String <> ::string_scope:x_'++'_x not
+R10896:10899 Coq.Strings.String <> ::string_scope:x_'++'_x not
+R10890:10893 LF.MoreFP <> show meth
+def 10921:10931 <> showOpt_ex1
+R10948:10950 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R10935:10938 LF.MoreFP <> show meth
+R10941:10944 Coq.Init.Datatypes <> Some constr
+def 10994:11004 <> showOpt_ex2
+R11019:11021 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R11008:11011 LF.MoreFP <> show meth
+R11014:11017 Coq.Init.Datatypes <> None constr
+inst 11065:11069 <> eqOpt
+binder 11072:11072 <> A:112
+R11087:11088 LF.MoreFP <> Eq class
+R11090:11090 LF.MoreFP <> A:112 var
+R11095:11096 LF.MoreFP <> Eq class
+R11099:11104 Coq.Init.Datatypes <> option ind
+R11106:11106 LF.MoreFP <> A:112 var
+R11112:11114 LF.MoreFP <> eqb meth
+binder 11116:11117 <> xs:113
+binder 11119:11120 <> ys:114
+R11139:11140 LF.MoreFP <> ys:114 var
+R11135:11136 LF.MoreFP <> xs:113 var
+R11153:11156 Coq.Init.Datatypes <> Some constr
+R11161:11164 Coq.Init.Datatypes <> Some constr
+R11172:11175 LF.MoreFP Monads :::x_'=?'_x not
+R11184:11187 Coq.Init.Datatypes <> None constr
+R11190:11193 Coq.Init.Datatypes <> None constr
+R11198:11201 Coq.Init.Datatypes <> true constr
+R11217:11221 Coq.Init.Datatypes <> false constr
+def 11243:11251 <> eqOpt_ex1
+R11283:11285 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R11255:11257 LF.MoreFP <> eqb meth
+R11273:11276 Coq.Init.Datatypes <> Some constr
+R11278:11281 Coq.Init.Datatypes <> true constr
+R11260:11263 Coq.Init.Datatypes <> Some constr
+R11265:11269 Coq.Init.Datatypes <> false constr
+R11286:11290 Coq.Init.Datatypes <> false constr
+def 11326:11334 <> eqOpt_ex2
+R11409:11411 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R11338:11340 LF.MoreFP <> eqb meth
+R11377:11380 Coq.Init.Datatypes <> Some constr
+R11382:11382 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R11394:11394 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R11407:11407 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R11383:11383 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R11388:11388 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R11393:11393 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R11384:11387 Coq.Init.Datatypes <> true constr
+R11389:11392 Coq.Init.Datatypes <> true constr
+R11395:11395 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R11401:11401 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R11406:11406 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R11396:11400 Coq.Init.Datatypes <> false constr
+R11402:11405 Coq.Init.Datatypes <> true constr
+R11343:11346 Coq.Init.Datatypes <> Some constr
+R11348:11348 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R11360:11360 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R11373:11373 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R11349:11349 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R11354:11354 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R11359:11359 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R11350:11353 Coq.Init.Datatypes <> true constr
+R11355:11358 Coq.Init.Datatypes <> true constr
+R11361:11361 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R11367:11367 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R11372:11372 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R11362:11366 Coq.Init.Datatypes <> false constr
+R11368:11371 Coq.Init.Datatypes <> true constr
+R11412:11415 Coq.Init.Datatypes <> true constr
+def 11452:11460 <> eqOpt_ex3
+R11485:11487 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R11464:11466 LF.MoreFP <> eqb meth
+R11481:11484 Coq.Init.Datatypes <> None constr
+R11469:11472 Coq.Init.Datatypes <> Some constr
+R11474:11478 Coq.Init.Datatypes <> false constr
+R11488:11492 Coq.Init.Datatypes <> false constr
+def 11529:11537 <> eqOpt_ex4
+R11554:11556 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R11541:11543 LF.MoreFP <> eqb meth
+R11550:11553 Coq.Init.Datatypes <> None constr
+R11545:11548 Coq.Init.Datatypes <> None constr
+R11557:11560 Coq.Init.Datatypes <> true constr
+inst 12028:12034 <> eqBoolA
+binder 12037:12037 <> A:117
+R12053:12056 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R12049:12050 LF.MoreFP <> Eq class
+R12052:12052 LF.MoreFP <> A:117 var
+R12057:12058 LF.MoreFP <> Eq class
+R12065:12068 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R12061:12064 Coq.Init.Datatypes <> bool ind
+R12069:12069 LF.MoreFP <> A:117 var
+R12079:12081 LF.MoreFP <> eqb meth
+binder 12083:12083 <> f:118
+binder 12085:12085 <> g:119
+R12090:12090 Coq.Init.Datatypes <> ::bool_scope:x_'&&'_x not
+R12107:12112 Coq.Init.Datatypes <> ::bool_scope:x_'&&'_x not
+R12131:12131 Coq.Init.Datatypes <> ::bool_scope:x_'&&'_x not
+R12097:12100 LF.MoreFP Monads :::x_'=?'_x not
+R12091:12091 LF.MoreFP <> f:118 var
+R12093:12096 Coq.Init.Datatypes <> true constr
+R12101:12101 LF.MoreFP <> g:119 var
+R12103:12106 Coq.Init.Datatypes <> true constr
+R12120:12123 LF.MoreFP Monads :::x_'=?'_x not
+R12113:12113 LF.MoreFP <> f:118 var
+R12115:12119 Coq.Init.Datatypes <> false constr
+R12124:12124 LF.MoreFP <> g:119 var
+R12126:12130 Coq.Init.Datatypes <> false constr
+R12146:12148 LF.MoreFP <> eqb meth
+R12222:12225 Coq.Init.Datatypes <> bool ind
+binder 12214:12215 <> b1:120
+binder 12217:12218 <> b2:121
+R12234:12235 LF.MoreFP <> b2:121 var
+R12164:12167 Coq.Init.Datatypes <> bool ind
+binder 12156:12157 <> b1:122
+binder 12159:12160 <> b2:123
+R12176:12177 LF.MoreFP <> b1:122 var
+def 12264:12274 <> eqBoolA_ex1
+R12318:12320 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R12278:12280 LF.MoreFP <> eqb meth
+binder 12292:12292 <> x:124
+R12297:12300 Coq.Init.Datatypes <> negb def
+R12303:12306 Coq.Init.Datatypes <> negb def
+R12309:12312 Coq.Init.Datatypes <> negb def
+R12314:12314 LF.MoreFP <> x:124 var
+R12282:12285 Coq.Init.Datatypes <> negb def
+R12321:12324 Coq.Init.Datatypes <> true constr
+def 12360:12370 <> eqBoolA_ex2
+R12374:12374 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R12498:12501 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R12375:12377 LF.MoreFP <> eqb meth
+R12468:12471 Coq.Init.Datatypes <> bool ind
+binder 12460:12461 <> b1:125
+binder 12463:12464 <> b2:126
+R12480:12481 LF.MoreFP <> b2:126 var
+R12393:12396 Coq.Init.Datatypes <> bool ind
+binder 12385:12386 <> b1:127
+binder 12388:12389 <> b2:128
+R12405:12406 LF.MoreFP <> b1:127 var
+R12502:12506 Coq.Init.Datatypes <> false constr
+def 12542:12552 <> eqBoolA_ex3
+R12556:12556 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R12699:12702 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R12557:12559 LF.MoreFP <> eqb meth
+R12656:12659 Coq.Init.Datatypes <> bool ind
+binder 12648:12649 <> b1:129
+binder 12651:12652 <> b2:130
+R12668:12671 Coq.Init.Datatypes <> negb def
+R12676:12679 Coq.Init.Datatypes <> ::bool_scope:x_'&&'_x not
+R12674:12675 LF.MoreFP <> b2:130 var
+R12680:12681 LF.MoreFP <> b1:129 var
+R12575:12578 Coq.Init.Datatypes <> bool ind
+binder 12567:12568 <> b1:131
+binder 12570:12571 <> b2:132
+R12589:12592 Coq.Init.Datatypes <> ::bool_scope:x_'&&'_x not
+R12587:12588 LF.MoreFP <> b1:131 var
+R12593:12594 LF.MoreFP <> b2:132 var
+R12703:12706 Coq.Init.Datatypes <> true constr
+rec 13171:13176 <> OrdBad
+proj 13200:13204 <> eqbad
+proj 13228:13232 <> lebad
+binder 13179:13179 <> A:133
+R13209:13212 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R13208:13208 LF.MoreFP <> A:133 var
+R13214:13217 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R13213:13213 LF.MoreFP <> A:133 var
+R13218:13221 Coq.Init.Datatypes <> bool ind
+R13237:13240 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R13236:13236 LF.MoreFP <> A:133 var
+R13242:13245 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R13241:13241 LF.MoreFP <> A:133 var
+R13246:13249 Coq.Init.Datatypes <> bool ind
+rec 13519:13521 <> Ord
+proj 13563:13564 <> le
+binder 13524:13524 <> A:137
+R13539:13540 LF.MoreFP <> Eq class
+R13542:13542 LF.MoreFP <> A:137 var
+binder 13535:13535 <> H:138
+R13569:13572 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R13568:13568 LF.MoreFP <> A:137 var
+R13574:13577 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R13573:13573 LF.MoreFP <> A:137 var
+R13578:13581 Coq.Init.Datatypes <> bool ind
+R13612:13613 LF.MoreFP <> le meth
+not 13598:13598 Monads :::x_'<=?'_x
+inst 13738:13743 <> ordNat
+R13747:13749 LF.MoreFP <> Ord class
+R13751:13753 Coq.Init.Datatypes <> nat ind
+R13766:13767 LF.MoreFP <> le meth
+R13772:13778 Coq.Arith.PeanoNat Nat leb def
+def 13990:13992 <> max
+binder 13995:13995 <> A:141
+R14009:14010 LF.MoreFP <> Eq class
+R14012:14012 LF.MoreFP <> A:141 var
+R14019:14021 LF.MoreFP <> Ord class
+R14023:14023 LF.MoreFP <> A:141 var
+R14033:14033 LF.MoreFP <> A:141 var
+binder 14027:14027 <> x:142
+binder 14029:14029 <> y:143
+R14038:14038 LF.MoreFP <> A:141 var
+R14049:14053 LF.MoreFP Monads :::x_'<=?'_x not
+R14048:14048 LF.MoreFP <> x:142 var
+R14054:14054 LF.MoreFP <> y:143 var
+R14068:14068 LF.MoreFP <> x:142 var
+R14061:14061 LF.MoreFP <> y:143 var
+R14284:14286 LF.MoreFP <> max def
+def 14402:14405 <> max'
+binder 14408:14408 <> A:144
+R14419:14421 LF.MoreFP <> Ord class
+R14423:14423 LF.MoreFP <> A:144 var
+binder 14419:14423 <> H0:146
+R14433:14433 LF.MoreFP <> A:144 var
+binder 14427:14427 <> x:147
+binder 14429:14429 <> y:148
+R14438:14438 LF.MoreFP <> A:144 var
+R14449:14453 LF.MoreFP Monads :::x_'<=?'_x not
+R14448:14448 LF.MoreFP <> x:147 var
+R14454:14454 LF.MoreFP <> y:148 var
+R14468:14468 LF.MoreFP <> x:147 var
+R14461:14461 LF.MoreFP <> y:148 var
+inst 14598:14604 <> ordPair
+binder 14608:14608 <> X:149
+binder 14610:14610 <> Y:150
+R14621:14623 LF.MoreFP <> Ord class
+R14625:14625 LF.MoreFP <> X:149 var
+binder 14621:14625 <> H0:152
+R14630:14632 LF.MoreFP <> Ord class
+R14634:14634 LF.MoreFP <> Y:150 var
+binder 14630:14634 <> H2:154
+R14639:14641 LF.MoreFP <> Ord class
+R14645:14646 Coq.Init.Datatypes <> ::type_scope:x_'*'_x not
+R14644:14644 LF.MoreFP <> X:149 var
+R14647:14647 LF.MoreFP <> Y:150 var
+R14658:14659 LF.MoreFP <> le meth
+binder 14661:14662 <> p1:155
+binder 14664:14665 <> p2:156
+R14686:14687 LF.MoreFP <> p1:155 var
+binder 14675:14676 <> x1:157
+binder 14679:14680 <> y1:158
+R14721:14722 LF.MoreFP <> p2:156 var
+binder 14710:14711 <> x2:159
+binder 14714:14715 <> y2:160
+R14748:14751 LF.MoreFP Monads :::x_'=?'_x not
+R14746:14747 LF.MoreFP <> x1:157 var
+R14752:14753 LF.MoreFP <> x2:159 var
+R14797:14801 LF.MoreFP Monads :::x_'<=?'_x not
+R14795:14796 LF.MoreFP <> x1:157 var
+R14802:14803 LF.MoreFP <> x2:159 var
+R14820:14824 Coq.Init.Datatypes <> false constr
+R14810:14813 Coq.Init.Datatypes <> true constr
+R14762:14766 LF.MoreFP Monads :::x_'<=?'_x not
+R14760:14761 LF.MoreFP <> y1:158 var
+R14767:14768 LF.MoreFP <> y2:160 var
+def 14839:14841 <> ex1
+R14861:14863 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R14850:14854 LF.MoreFP Monads :::x_'<=?'_x not
+R14844:14844 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R14846:14847 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R14849:14849 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R14855:14855 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R14857:14858 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R14860:14860 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R14864:14867 Coq.Init.Datatypes <> true constr
+def 14903:14905 <> ex2
+R14925:14927 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R14914:14918 LF.MoreFP Monads :::x_'<=?'_x not
+R14908:14908 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R14910:14911 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R14913:14913 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R14919:14919 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R14921:14922 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R14924:14924 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R14928:14931 Coq.Init.Datatypes <> true constr
+def 14967:14969 <> ex3
+R14989:14991 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R14978:14982 LF.MoreFP Monads :::x_'<=?'_x not
+R14972:14972 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R14974:14975 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R14977:14977 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R14983:14983 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R14985:14986 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R14988:14988 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R14992:14995 Coq.Init.Datatypes <> true constr
+def 15031:15033 <> ex4
+R15053:15055 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R15042:15046 LF.MoreFP Monads :::x_'<=?'_x not
+R15036:15036 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R15038:15039 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R15041:15041 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R15047:15047 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R15049:15050 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R15052:15052 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R15056:15060 Coq.Init.Datatypes <> false constr
+def 15158:15181 <> manual_grade_for_ordMisc
+R15185:15190 Coq.Init.Datatypes <> option ind
+R15196:15196 Coq.Init.Datatypes <> ::type_scope:x_'*'_x not
+R15193:15195 Coq.Init.Datatypes <> nat ind
+R15197:15202 Coq.Strings.String <> string ind
+R15208:15211 Coq.Init.Datatypes <> None constr
+def 15381:15387 <> ordlist
+binder 15390:15390 <> X:161
+R15403:15404 LF.MoreFP <> Eq class
+R15406:15406 LF.MoreFP <> X:161 var
+binder 15400:15401 <> e1:162
+R15413:15415 LF.MoreFP <> Ord class
+R15417:15417 LF.MoreFP <> X:161 var
+binder 15410:15411 <> e2:163
+R15429:15432 Coq.Init.Datatypes <> list ind
+R15434:15434 LF.MoreFP <> X:161 var
+binder 15421:15422 <> l1:164
+binder 15424:15425 <> l2:165
+R15439:15442 Coq.Init.Datatypes <> bool ind
+R15458:15459 LF.MoreFP <> l2:165 var
+R15454:15455 LF.MoreFP <> l1:164 var
+R15483:15484 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R15491:15492 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R15504:15507 LF.MoreFP Monads :::x_'=?'_x not
+R15565:15569 LF.MoreFP Monads :::x_'<=?'_x not
+R15588:15592 Coq.Init.Datatypes <> false constr
+R15578:15581 Coq.Init.Datatypes <> true constr
+R15517:15523 LF.MoreFP <> ordlist:166 def
+R15528:15529 LF.MoreFP <> e2:163 var
+R15525:15526 LF.MoreFP <> e1:162 var
+R15609:15610 Coq.Lists.List ListNotations ::list_scope:'['_']' not
+R15618:15621 Coq.Init.Datatypes <> true constr
+R15646:15650 Coq.Init.Datatypes <> false constr
+inst 15679:15685 <> ordList
+binder 15689:15689 <> X:169
+R15703:15704 LF.MoreFP <> Eq class
+R15706:15706 LF.MoreFP <> X:169 var
+binder 15700:15701 <> e1:170
+R15713:15715 LF.MoreFP <> Ord class
+R15717:15717 LF.MoreFP <> X:169 var
+binder 15710:15711 <> e2:171
+R15722:15724 LF.MoreFP <> Ord class
+R15727:15730 Coq.Init.Datatypes <> list ind
+R15732:15732 LF.MoreFP <> X:169 var
+R15743:15744 LF.MoreFP <> le meth
+R15749:15755 LF.MoreFP <> ordlist def
+def 15776:15779 <> exl1
+R15799:15801 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R15788:15792 LF.MoreFP Monads :::x_'<=?'_x not
+R15782:15782 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R15784:15785 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R15787:15787 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R15793:15793 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R15795:15796 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R15798:15798 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R15802:15805 Coq.Init.Datatypes <> true constr
+def 15841:15844 <> exl2
+R15868:15870 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R15857:15861 LF.MoreFP Monads :::x_'<=?'_x not
+R15847:15847 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R15849:15850 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R15852:15854 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R15856:15856 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R15862:15862 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R15864:15865 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R15867:15867 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R15871:15875 Coq.Init.Datatypes <> false constr
+def 15974:15997 <> manual_grade_for_ordList
+R16001:16006 Coq.Init.Datatypes <> option ind
+R16012:16012 Coq.Init.Datatypes <> ::type_scope:x_'*'_x not
+R16009:16011 Coq.Init.Datatypes <> nat ind
+R16013:16018 Coq.Strings.String <> string ind
+R16024:16027 Coq.Init.Datatypes <> None constr
+rec 16150:16156 <> Functor
+proj 16184:16187 <> fmap
+R16167:16170 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+binder 16159:16159 <> F:172
+binder 16199:16199 <> A:174
+binder 16201:16201 <> B:175
+R16212:16212 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R16219:16223 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R16214:16217 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R16213:16213 LF.MoreFP <> A:174 var
+R16218:16218 LF.MoreFP <> B:175 var
+R16227:16230 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R16224:16224 LF.MoreFP <> F:172 var
+R16226:16226 LF.MoreFP <> A:174 var
+R16231:16231 LF.MoreFP <> F:172 var
+R16233:16233 LF.MoreFP <> B:175 var
+def 16373:16379 <> mapList
+binder 16382:16382 <> A:177
+binder 16384:16384 <> B:178
+R16400:16403 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R16399:16399 LF.MoreFP <> A:177 var
+R16404:16404 LF.MoreFP <> B:178 var
+binder 16395:16395 <> f:179
+R16413:16416 Coq.Init.Datatypes <> list ind
+R16418:16418 LF.MoreFP <> A:177 var
+binder 16408:16409 <> xs:180
+R16432:16433 LF.MoreFP <> xs:180 var
+R16446:16447 Coq.Lists.List ListNotations ::list_scope:'['_']' not
+R16452:16453 Coq.Lists.List ListNotations ::list_scope:'['_']' not
+R16462:16465 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R16472:16472 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R16476:16481 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R16494:16494 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R16473:16473 LF.MoreFP <> f:179 var
+R16482:16488 LF.MoreFP <> mapList:181 def
+R16492:16493 LF.MoreFP <> xs:180 var
+R16490:16490 LF.MoreFP <> f:179 var
+inst 16513:16523 <> functorList
+R16527:16533 LF.MoreFP <> Functor class
+R16535:16538 Coq.Init.Datatypes <> list ind
+R16547:16550 LF.MoreFP <> fmap meth
+binder 16552:16552 <> A:183
+binder 16554:16554 <> B:184
+R16559:16565 LF.MoreFP <> mapList def
+R16580:16583 LF.MoreFP <> fmap meth
+R16587:16587 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R16589:16589 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R16591:16591 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R16593:16593 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R16585:16585 Coq.Init.Datatypes <> S constr
+ind 16731:16734 <> tree
+constr 16761:16764 <> Leaf
+constr 16770:16773 <> Node
+binder 16737:16737 <> X:185
+R16780:16780 LF.MoreFP <> X:185 var
+binder 16776:16776 <> x:188
+R16788:16791 LF.MoreFP <> tree:186 ind
+R16793:16793 LF.MoreFP <> X:185 var
+binder 16784:16784 <> l:189
+R16801:16804 LF.MoreFP <> tree:186 ind
+R16806:16806 LF.MoreFP <> X:185 var
+binder 16797:16797 <> r:190
+R16821:16824 LF.MoreFP <> Leaf constr
+R16821:16824 LF.MoreFP <> Leaf constr
+R16841:16844 LF.MoreFP <> Node constr
+R16841:16844 LF.MoreFP <> Node constr
+def 16861:16867 <> mapTree
+binder 16870:16870 <> A:191
+binder 16872:16872 <> B:192
+R16888:16891 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R16887:16887 LF.MoreFP <> A:191 var
+R16892:16892 LF.MoreFP <> B:192 var
+binder 16883:16883 <> f:193
+R16900:16903 LF.MoreFP <> tree ind
+R16905:16905 LF.MoreFP <> A:191 var
+binder 16896:16896 <> t:194
+R16919:16919 LF.MoreFP <> t:194 var
+R16932:16935 LF.MoreFP <> Leaf constr
+R16940:16943 LF.MoreFP <> Leaf constr
+R16951:16954 LF.MoreFP <> Node constr
+R16966:16969 LF.MoreFP <> Node constr
+R16992:16998 LF.MoreFP <> mapTree:195 def
+R17000:17000 LF.MoreFP <> f:193 var
+R16978:16984 LF.MoreFP <> mapTree:195 def
+R16986:16986 LF.MoreFP <> f:193 var
+R16972:16972 LF.MoreFP <> f:193 var
+inst 17022:17032 <> functorTree
+R17036:17042 LF.MoreFP <> Functor class
+R17044:17047 LF.MoreFP <> tree ind
+R17056:17059 LF.MoreFP <> fmap meth
+binder 17061:17061 <> A:197
+binder 17063:17063 <> B:198
+R17068:17074 LF.MoreFP <> mapTree def
+R17089:17092 LF.MoreFP <> fmap meth
+R17097:17100 LF.MoreFP <> Node constr
+R17142:17145 LF.MoreFP <> Node constr
+R17169:17172 LF.MoreFP <> Leaf constr
+R17151:17154 LF.MoreFP <> Node constr
+R17163:17166 LF.MoreFP <> Leaf constr
+R17158:17161 LF.MoreFP <> Leaf constr
+R17106:17109 LF.MoreFP <> Node constr
+R17118:17121 LF.MoreFP <> Leaf constr
+R17113:17116 LF.MoreFP <> Leaf constr
+R17094:17094 Coq.Init.Datatypes <> S constr
+def 17271:17277 <> showall
+R17288:17291 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+binder 17280:17280 <> F:199
+R17303:17309 LF.MoreFP <> Functor class
+R17311:17311 LF.MoreFP <> F:199 var
+binder 17334:17334 <> A:200
+R17349:17352 LF.MoreFP <> Show class
+R17354:17354 LF.MoreFP <> A:200 var
+R17382:17382 LF.MoreFP <> F:199 var
+R17384:17384 LF.MoreFP <> A:200 var
+binder 17378:17378 <> x:201
+R17389:17389 LF.MoreFP <> F:199 var
+R17391:17396 Coq.Strings.String <> string ind
+R17403:17406 LF.MoreFP <> fmap meth
+R17413:17413 LF.MoreFP <> x:201 var
+R17408:17411 LF.MoreFP <> show meth
+R17426:17432 LF.MoreFP <> showall def
+R17435:17438 LF.MoreFP <> Node constr
+R17487:17490 LF.MoreFP <> Node constr
+R17503:17506 LF.MoreFP <> Leaf constr
+R17498:17501 LF.MoreFP <> Leaf constr
+R17492:17496 Coq.Init.Datatypes <> false constr
+R17446:17449 LF.MoreFP <> Node constr
+R17462:17465 LF.MoreFP <> Leaf constr
+R17457:17460 LF.MoreFP <> Leaf constr
+R17451:17455 Coq.Init.Datatypes <> false constr
+R17440:17443 Coq.Init.Datatypes <> true constr
+inst 17622:17634 <> functorOption
+R17638:17644 LF.MoreFP <> Functor class
+R17646:17651 Coq.Init.Datatypes <> option ind
+R17660:17663 LF.MoreFP <> fmap meth
+binder 17665:17665 <> A:202
+binder 17667:17667 <> B:203
+binder 17669:17669 <> f:204
+binder 17671:17672 <> xs:205
+R17683:17684 LF.MoreFP <> xs:205 var
+R17699:17702 Coq.Init.Datatypes <> None constr
+R17707:17710 Coq.Init.Datatypes <> None constr
+R17720:17723 Coq.Init.Datatypes <> Some constr
+R17730:17733 Coq.Init.Datatypes <> Some constr
+R17736:17736 LF.MoreFP <> f:204 var
+def 17759:17772 <> functorOpt_ex1
+R17787:17789 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R17776:17779 LF.MoreFP <> fmap meth
+R17783:17786 Coq.Init.Datatypes <> None constr
+R17781:17781 Coq.Init.Datatypes <> S constr
+R17790:17793 Coq.Init.Datatypes <> None constr
+def 17830:17843 <> functorOpt_ex2
+R17862:17864 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R17847:17850 LF.MoreFP <> fmap meth
+R17855:17858 Coq.Init.Datatypes <> Some constr
+R17852:17852 Coq.Init.Datatypes <> S constr
+R17865:17868 Coq.Init.Datatypes <> Some constr
+prf 18269:18280 <> fmap_id_tree
+binder 18292:18292 <> A:207
+R18307:18310 LF.MoreFP <> tree ind
+R18312:18312 LF.MoreFP <> A:207 var
+binder 18303:18303 <> t:208
+R18345:18347 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R18320:18323 LF.MoreFP <> fmap meth
+R18325:18328 LF.MoreFP <> tree ind
+R18338:18339 Coq.Init.Datatypes <> id def
+R18341:18341 LF.MoreFP <> A:207 var
+R18344:18344 LF.MoreFP <> t:208 var
+R18348:18349 Coq.Init.Datatypes <> id def
+R18351:18351 LF.MoreFP <> t:208 var
+prf 18488:18501 <> fmap_comp_tree
+binder 18513:18513 <> A:209
+binder 18515:18515 <> B:210
+binder 18517:18517 <> C:211
+R18536:18539 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R18535:18535 LF.MoreFP <> B:210 var
+R18540:18540 LF.MoreFP <> C:211 var
+binder 18531:18531 <> f:212
+R18549:18552 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R18548:18548 LF.MoreFP <> A:209 var
+R18553:18553 LF.MoreFP <> B:210 var
+binder 18544:18544 <> g:213
+R18561:18564 LF.MoreFP <> tree ind
+R18566:18566 LF.MoreFP <> A:209 var
+binder 18557:18557 <> t:214
+R18609:18614 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R18573:18576 LF.MoreFP <> fmap meth
+R18578:18581 LF.MoreFP <> tree ind
+binder 18594:18594 <> x:215
+R18599:18599 LF.MoreFP <> f:212 var
+R18602:18602 LF.MoreFP <> g:213 var
+R18604:18604 LF.MoreFP <> x:215 var
+R18608:18608 LF.MoreFP <> t:214 var
+binder 18620:18620 <> x:216
+R18626:18629 LF.MoreFP <> fmap meth
+R18634:18637 LF.MoreFP <> fmap meth
+R18641:18641 LF.MoreFP <> x:216 var
+R18639:18639 LF.MoreFP <> g:213 var
+R18631:18631 LF.MoreFP <> f:212 var
+R18646:18646 LF.MoreFP <> t:214 var
+ind 20446:20448 <> exp
+constr 20456:20458 <> Num
+constr 20475:20478 <> Plus
+constr 20502:20504 <> Div
+R20465:20468 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R20462:20464 Coq.Init.Datatypes <> nat ind
+R20469:20471 LF.MoreFP <> exp:217 ind
+R20485:20488 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R20482:20484 LF.MoreFP <> exp:217 ind
+R20492:20495 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R20489:20491 LF.MoreFP <> exp:217 ind
+R20496:20498 LF.MoreFP <> exp:217 ind
+R20511:20514 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R20508:20510 LF.MoreFP <> exp:217 ind
+R20518:20521 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R20515:20517 LF.MoreFP <> exp:217 ind
+R20522:20524 LF.MoreFP <> exp:217 ind
+def 20571:20580 <> showExpAux
+R20587:20589 LF.MoreFP <> exp ind
+binder 20583:20583 <> e:219
+R20594:20599 Coq.Strings.String <> string ind
+R20612:20612 LF.MoreFP <> e:219 var
+R20626:20628 LF.MoreFP <> Num constr
+R20635:20638 LF.MoreFP <> show meth
+R20648:20651 LF.MoreFP <> Plus constr
+R20674:20677 Coq.Strings.String <> ::string_scope:x_'++'_x not
+R20678:20678 Coq.Strings.String <> ::string_scope:x_'++'_x not
+R20692:20696 Coq.Strings.String <> ::string_scope:x_'++'_x not
+R20679:20688 LF.MoreFP <> showExpAux:220 def
+R20700:20703 Coq.Strings.String <> ::string_scope:x_'++'_x not
+R20704:20704 Coq.Strings.String <> ::string_scope:x_'++'_x not
+R20718:20722 Coq.Strings.String <> ::string_scope:x_'++'_x not
+R20705:20714 LF.MoreFP <> showExpAux:220 def
+R20733:20735 LF.MoreFP <> Div constr
+R20758:20761 Coq.Strings.String <> ::string_scope:x_'++'_x not
+R20762:20762 Coq.Strings.String <> ::string_scope:x_'++'_x not
+R20776:20780 Coq.Strings.String <> ::string_scope:x_'++'_x not
+R20763:20772 LF.MoreFP <> showExpAux:220 def
+R20784:20787 Coq.Strings.String <> ::string_scope:x_'++'_x not
+R20788:20788 Coq.Strings.String <> ::string_scope:x_'++'_x not
+R20802:20806 Coq.Strings.String <> ::string_scope:x_'++'_x not
+R20789:20798 LF.MoreFP <> showExpAux:220 def
+inst 20828:20834 <> showExp
+R20838:20841 LF.MoreFP <> Show class
+R20843:20845 LF.MoreFP <> exp ind
+R20854:20857 LF.MoreFP <> show meth
+R20862:20871 LF.MoreFP <> showExpAux def
+R20886:20889 LF.MoreFP <> show meth
+R20892:20894 LF.MoreFP <> Div constr
+R20897:20899 LF.MoreFP <> Num constr
+R20905:20907 LF.MoreFP <> Num constr
+def 21002:21006 <> eval0
+R21011:21013 LF.MoreFP <> exp ind
+binder 21009:21009 <> e:222
+R21018:21020 Coq.Init.Datatypes <> nat ind
+R21034:21034 LF.MoreFP <> e:222 var
+R21048:21050 LF.MoreFP <> Num constr
+R21065:21068 LF.MoreFP <> Plus constr
+R21087:21089 Coq.Init.Peano <> ::nat_scope:x_'+'_x not
+R21079:21083 LF.MoreFP <> eval0:223 def
+R21090:21094 LF.MoreFP <> eval0:223 def
+R21106:21108 LF.MoreFP <> Div constr
+R21127:21129 Coq.Arith.PeanoNat <> ::nat_scope:x_'/'_x not
+R21119:21123 LF.MoreFP <> eval0:223 def
+R21130:21134 LF.MoreFP <> eval0:223 def
+R21157:21161 LF.MoreFP <> eval0 def
+R21164:21166 LF.MoreFP <> Div constr
+R21169:21171 LF.MoreFP <> Num constr
+R21177:21179 LF.MoreFP <> Num constr
+R21215:21219 LF.MoreFP <> eval0 def
+R21222:21224 LF.MoreFP <> Div constr
+R21227:21229 LF.MoreFP <> Num constr
+R21235:21237 LF.MoreFP <> Num constr
+ind 21632:21637 <> Result
+constr 21664:21668 <> Error
+constr 21689:21693 <> Value
+binder 21640:21640 <> X:225
+R21677:21682 Coq.Strings.String <> string ind
+binder 21671:21673 <> err:228
+R21700:21700 LF.MoreFP <> X:225 var
+binder 21696:21696 <> x:229
+R21715:21719 LF.MoreFP <> Error constr
+R21715:21719 LF.MoreFP <> Error constr
+R21736:21740 LF.MoreFP <> Value constr
+R21736:21740 LF.MoreFP <> Value constr
+def 21830:21834 <> eval1
+R21839:21841 LF.MoreFP <> exp ind
+binder 21837:21837 <> e:230
+R21846:21851 LF.MoreFP <> Result ind
+R21853:21855 Coq.Init.Datatypes <> nat ind
+R21869:21869 LF.MoreFP <> e:230 var
+R21882:21884 LF.MoreFP <> Num constr
+R21891:21895 LF.MoreFP <> Value constr
+R21904:21907 LF.MoreFP <> Plus constr
+R21933:21937 LF.MoreFP <> eval1:231 def
+R21959:21963 LF.MoreFP <> Error constr
+R21973:21977 LF.MoreFP <> Error constr
+R21996:22000 LF.MoreFP <> Value constr
+R22029:22033 LF.MoreFP <> eval1:231 def
+R22061:22065 LF.MoreFP <> Error constr
+R22075:22079 LF.MoreFP <> Error constr
+R22105:22109 LF.MoreFP <> Value constr
+R22118:22122 LF.MoreFP <> Value constr
+R22127:22129 Coq.Init.Peano <> ::nat_scope:x_'+'_x not
+R22169:22171 LF.MoreFP <> Div constr
+R22197:22201 LF.MoreFP <> eval1:231 def
+R22223:22227 LF.MoreFP <> Error constr
+R22237:22241 LF.MoreFP <> Error constr
+R22260:22264 LF.MoreFP <> Value constr
+R22293:22297 LF.MoreFP <> eval1:231 def
+R22325:22329 LF.MoreFP <> Error constr
+R22339:22343 LF.MoreFP <> Error constr
+R22369:22373 LF.MoreFP <> Value constr
+R22437:22441 LF.MoreFP <> Error constr
+R22451:22454 Coq.Strings.String <> ::string_scope:x_'++'_x not
+R22455:22458 LF.MoreFP <> show meth
+R22504:22508 LF.MoreFP <> Value constr
+R22513:22515 Coq.Arith.PeanoNat <> ::nat_scope:x_'/'_x not
+R22622:22626 LF.MoreFP <> eval1 def
+R22629:22631 LF.MoreFP <> Div constr
+R22634:22636 LF.MoreFP <> Num constr
+R22642:22644 LF.MoreFP <> Num constr
+R22694:22698 LF.MoreFP <> eval1 def
+R22701:22703 LF.MoreFP <> Div constr
+R22706:22708 LF.MoreFP <> Num constr
+R22714:22716 LF.MoreFP <> Num constr
+R22773:22777 LF.MoreFP <> eval1 def
+R22780:22782 LF.MoreFP <> Div constr
+R22785:22787 LF.MoreFP <> Num constr
+R22793:22796 LF.MoreFP <> Plus constr
+R22799:22801 LF.MoreFP <> Num constr
+R22807:22809 LF.MoreFP <> Num constr
+R22873:22877 LF.MoreFP <> eval1 def
+R22880:22883 LF.MoreFP <> Plus constr
+R22886:22888 LF.MoreFP <> Div constr
+R22891:22893 LF.MoreFP <> Num constr
+R22899:22901 LF.MoreFP <> Num constr
+R22930:22932 LF.MoreFP <> Div constr
+R22935:22937 LF.MoreFP <> Num constr
+R22943:22946 LF.MoreFP <> Plus constr
+R22949:22951 LF.MoreFP <> Num constr
+R22957:22959 LF.MoreFP <> Num constr
+R23020:23024 LF.MoreFP <> eval1 def
+R23027:23029 LF.MoreFP <> Div constr
+R23032:23034 LF.MoreFP <> Div constr
+R23037:23039 LF.MoreFP <> Num constr
+R23045:23048 LF.MoreFP <> Plus constr
+R23051:23053 LF.MoreFP <> Num constr
+R23059:23061 LF.MoreFP <> Num constr
+R23071:23073 LF.MoreFP <> Num constr
+def 23844:23854 <> bind_result
+binder 23857:23857 <> A:234
+binder 23859:23859 <> B:235
+R23874:23879 LF.MoreFP <> Result ind
+R23881:23881 LF.MoreFP <> A:234 var
+binder 23870:23870 <> r:236
+R23899:23902 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R23898:23898 LF.MoreFP <> A:234 var
+R23903:23908 LF.MoreFP <> Result ind
+R23910:23910 LF.MoreFP <> B:235 var
+binder 23888:23894 <> process:237
+R23915:23920 LF.MoreFP <> Result ind
+R23922:23922 LF.MoreFP <> B:235 var
+R23935:23935 LF.MoreFP <> r:236 var
+R23946:23950 LF.MoreFP <> Error constr
+R23959:23963 LF.MoreFP <> Error constr
+R23973:23977 LF.MoreFP <> Value constr
+R23984:23990 LF.MoreFP <> process:237 var
+R24031:24041 LF.MoreFP <> bind_result def
+not 24011:24011 Monads :::x_'>>='_x
+def 24393:24397 <> eval2
+R24402:24404 LF.MoreFP <> exp ind
+binder 24400:24400 <> e:239
+R24409:24414 LF.MoreFP <> Result ind
+R24416:24418 Coq.Init.Datatypes <> nat ind
+R24432:24432 LF.MoreFP <> e:239 var
+R24446:24448 LF.MoreFP <> Num constr
+R24455:24459 LF.MoreFP <> Value constr
+R24469:24472 LF.MoreFP <> Plus constr
+R24491:24495 LF.MoreFP Monads :::x_'>>='_x not
+R24483:24487 LF.MoreFP <> eval2:240 def
+binder 24500:24501 <> n1:242
+R24534:24538 LF.MoreFP Monads :::x_'>>='_x not
+R24526:24530 LF.MoreFP <> eval2:240 def
+binder 24543:24544 <> n2:243
+R24569:24573 LF.MoreFP <> Value constr
+R24578:24580 Coq.Init.Peano <> ::nat_scope:x_'+'_x not
+R24576:24577 LF.MoreFP <> n1:242 var
+R24581:24582 LF.MoreFP <> n2:243 var
+R24591:24593 LF.MoreFP <> Div constr
+R24613:24617 LF.MoreFP Monads :::x_'>>='_x not
+R24605:24609 LF.MoreFP <> eval2:240 def
+binder 24622:24623 <> n1:244
+R24656:24660 LF.MoreFP Monads :::x_'>>='_x not
+R24648:24652 LF.MoreFP <> eval2:240 def
+binder 24665:24666 <> n2:245
+R24697:24698 LF.MoreFP <> n2:245 var
+R24735:24739 LF.MoreFP <> Error constr
+R24749:24752 Coq.Strings.String <> ::string_scope:x_'++'_x not
+R24753:24756 LF.MoreFP <> show meth
+R24791:24795 LF.MoreFP <> Value constr
+R24800:24802 Coq.Arith.PeanoNat <> ::nat_scope:x_'/'_x not
+R24798:24799 LF.MoreFP <> n1:244 var
+R24803:24804 LF.MoreFP <> n2:245 var
+rec 25163:25167 <> Monad
+proj 25196:25199 <> bind
+proj 25253:25255 <> ret
+R25178:25181 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+binder 25170:25170 <> M:247
+binder 25211:25211 <> A:249
+binder 25213:25213 <> B:250
+R25227:25230 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R25224:25224 LF.MoreFP <> M:247 var
+R25226:25226 LF.MoreFP <> A:249 var
+R25231:25231 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R25240:25244 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R25233:25236 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R25232:25232 LF.MoreFP <> A:249 var
+R25237:25237 LF.MoreFP <> M:247 var
+R25239:25239 LF.MoreFP <> B:250 var
+R25245:25245 LF.MoreFP <> M:247 var
+R25247:25247 LF.MoreFP <> B:250 var
+binder 25267:25267 <> A:252
+R25279:25282 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R25278:25278 LF.MoreFP <> A:252 var
+R25283:25283 LF.MoreFP <> M:247 var
+R25285:25285 LF.MoreFP <> A:252 var
+inst 25845:25853 <> monResult
+R25857:25861 LF.MoreFP <> Monad class
+R25863:25868 LF.MoreFP <> Result ind
+R26057:26059 LF.MoreFP <> ret meth
+R25878:25881 LF.MoreFP <> bind meth
+binder 25891:25891 <> A:254
+binder 25893:25893 <> B:255
+R25908:25913 LF.MoreFP <> Result ind
+R25915:25915 LF.MoreFP <> A:254 var
+binder 25904:25904 <> x:256
+R25924:25927 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R25923:25923 LF.MoreFP <> A:254 var
+R25928:25933 LF.MoreFP <> Result ind
+R25935:25935 LF.MoreFP <> B:255 var
+binder 25919:25919 <> f:257
+R25959:25959 LF.MoreFP <> x:256 var
+R25983:25987 LF.MoreFP <> Error constr
+R25996:26000 LF.MoreFP <> Error constr
+R26022:26026 LF.MoreFP <> Value constr
+R26033:26033 LF.MoreFP <> f:257 var
+binder 26069:26069 <> A:259
+R26084:26084 LF.MoreFP <> A:259 var
+binder 26080:26080 <> x:260
+R26090:26094 LF.MoreFP <> Value constr
+R26096:26096 LF.MoreFP <> x:260 var
+R26240:26243 LF.MoreFP <> bind meth
+binder 26253:26253 <> x:261
+not 26220:26220 Monads :::x_'<-'_x_';;'_x
+R26358:26361 LF.MoreFP <> bind meth
+not 26343:26343 Monads :::x_';;'_x
+def 26654:26657 <> eval
+R26662:26664 LF.MoreFP <> exp ind
+binder 26660:26660 <> e:262
+R26669:26674 LF.MoreFP <> Result ind
+R26676:26678 Coq.Init.Datatypes <> nat ind
+R26692:26692 LF.MoreFP <> e:262 var
+R26706:26708 LF.MoreFP <> Num constr
+R26715:26717 LF.MoreFP <> ret meth
+R26727:26730 LF.MoreFP <> Plus constr
+R26743:26746 LF.MoreFP Monads :::x_'<-'_x_';;'_x not
+R26754:26777 LF.MoreFP Monads :::x_'<-'_x_';;'_x not
+R26747:26750 LF.MoreFP <> eval:263 def
+binder 26741:26742 <> n1:265
+R26780:26783 LF.MoreFP Monads :::x_'<-'_x_';;'_x not
+R26791:26814 LF.MoreFP Monads :::x_'<-'_x_';;'_x not
+R26784:26787 LF.MoreFP <> eval:263 def
+binder 26778:26779 <> n2:266
+R26815:26817 LF.MoreFP <> ret meth
+R26822:26824 Coq.Init.Peano <> ::nat_scope:x_'+'_x not
+R26820:26821 LF.MoreFP <> n1:265 var
+R26825:26826 LF.MoreFP <> n2:266 var
+R26835:26837 LF.MoreFP <> Div constr
+R26851:26854 LF.MoreFP Monads :::x_'<-'_x_';;'_x not
+R26862:26885 LF.MoreFP Monads :::x_'<-'_x_';;'_x not
+R26855:26858 LF.MoreFP <> eval:263 def
+binder 26849:26850 <> n1:267
+R26888:26891 LF.MoreFP Monads :::x_'<-'_x_';;'_x not
+R26899:26922 LF.MoreFP Monads :::x_'<-'_x_';;'_x not
+R26892:26895 LF.MoreFP <> eval:263 def
+binder 26886:26887 <> n2:268
+R26929:26930 LF.MoreFP <> n2:268 var
+R26967:26971 LF.MoreFP <> Error constr
+R26981:26984 Coq.Strings.String <> ::string_scope:x_'++'_x not
+R26985:26988 LF.MoreFP <> show meth
+R27023:27025 LF.MoreFP <> ret meth
+R27030:27032 Coq.Init.Peano <> ::nat_scope:x_'+'_x not
+R27028:27029 LF.MoreFP <> n1:267 var
+R27033:27034 LF.MoreFP <> n2:268 var
+def 27178:27189 <> eval_to_zero
+R27196:27198 LF.MoreFP <> exp ind
+binder 27192:27192 <> e:270
+R27217:27220 LF.MoreFP <> eval def
+R27222:27222 LF.MoreFP <> e:270 var
+binder 27211:27211 <> r:271
+R27238:27238 LF.MoreFP <> r:271 var
+R27254:27258 LF.MoreFP <> Error constr
+R27265:27267 LF.MoreFP <> ret meth
+R27284:27284 LF.MoreFP <> r:271 var
+R27306:27317 LF.MoreFP <> eval_to_zero def
+R27320:27322 LF.MoreFP <> Div constr
+R27325:27327 LF.MoreFP <> Num constr
+R27333:27336 LF.MoreFP <> Plus constr
+R27339:27341 LF.MoreFP <> Num constr
+R27347:27349 LF.MoreFP <> Num constr
+ind 27700:27704 <> exp_c
+constr 27712:27716 <> Num_c
+constr 27735:27740 <> Plus_c
+constr 27770:27772 <> Inc
+R27723:27726 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R27720:27722 Coq.Init.Datatypes <> nat ind
+R27727:27731 LF.MoreFP <> exp_c:273 ind
+R27749:27752 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R27744:27748 LF.MoreFP <> exp_c:273 ind
+R27758:27761 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R27753:27757 LF.MoreFP <> exp_c:273 ind
+R27762:27766 LF.MoreFP <> exp_c:273 ind
+def 28226:28228 <> Cnt
+R28233:28235 Coq.Init.Datatypes <> nat ind
+def 28624:28630 <> eval_c0
+R28635:28639 LF.MoreFP <> exp_c ind
+binder 28633:28633 <> e:275
+R28647:28649 LF.MoreFP <> Cnt def
+binder 28643:28645 <> cnt:276
+R28657:28659 Coq.Init.Datatypes <> ::type_scope:x_'*'_x not
+R28654:28656 LF.MoreFP <> Cnt def
+R28660:28662 Coq.Init.Datatypes <> nat ind
+R28676:28676 LF.MoreFP <> e:275 var
+R28690:28694 LF.MoreFP <> Num_c constr
+R28701:28701 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R28705:28706 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R28708:28708 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R28702:28704 LF.MoreFP <> cnt:276 var
+R28716:28721 LF.MoreFP <> Plus_c constr
+R28761:28767 LF.MoreFP <> eval_c0:277 def
+R28772:28774 LF.MoreFP <> cnt:276 var
+binder 28748:28751 <> cnt1:279
+binder 28754:28755 <> v1:280
+R28808:28814 LF.MoreFP <> eval_c0:277 def
+R28819:28822 LF.MoreFP <> cnt1:279 var
+binder 28795:28798 <> cnt2:281
+binder 28801:28802 <> v2:282
+R28837:28837 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R28842:28843 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R28851:28851 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R28838:28841 LF.MoreFP <> cnt2:281 var
+R28846:28848 Coq.Init.Peano <> ::nat_scope:x_'+'_x not
+R28844:28845 LF.MoreFP <> v1:280 var
+R28849:28850 LF.MoreFP <> v2:282 var
+R28859:28861 LF.MoreFP <> Inc constr
+R28866:28866 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R28872:28873 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R28877:28877 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R28867:28867 Coq.Init.Datatypes <> S constr
+R28869:28871 LF.MoreFP <> cnt:276 var
+R28874:28876 LF.MoreFP <> cnt:276 var
+def 28898:28907 <> topEval_c0
+binder 28909:28909 <> e:283
+R28914:28916 Coq.Init.Datatypes <> snd def
+R28919:28925 LF.MoreFP <> eval_c0 def
+R28927:28927 LF.MoreFP <> e:283 var
+R28991:29000 LF.MoreFP <> topEval_c0 def
+R29003:29008 LF.MoreFP <> Plus_c constr
+R29010:29012 LF.MoreFP <> Inc constr
+R29014:29016 LF.MoreFP <> Inc constr
+R29063:29072 LF.MoreFP <> topEval_c0 def
+R29075:29080 LF.MoreFP <> Plus_c constr
+R29082:29084 LF.MoreFP <> Inc constr
+R29087:29092 LF.MoreFP <> Plus_c constr
+R29094:29096 LF.MoreFP <> Inc constr
+R29098:29100 LF.MoreFP <> Inc constr
+def 30755:30766 <> bind_counter
+binder 30769:30769 <> A:284
+binder 30771:30771 <> B:285
+R30794:30797 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R30791:30793 LF.MoreFP <> Cnt def
+R30801:30803 Coq.Init.Datatypes <> ::type_scope:x_'*'_x not
+R30798:30800 LF.MoreFP <> Cnt def
+R30804:30804 LF.MoreFP <> A:284 var
+binder 30784:30787 <> step:286
+R30819:30822 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R30818:30818 LF.MoreFP <> A:284 var
+R30826:30829 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R30823:30825 LF.MoreFP <> Cnt def
+R30833:30835 Coq.Init.Datatypes <> ::type_scope:x_'*'_x not
+R30830:30832 LF.MoreFP <> Cnt def
+R30836:30836 LF.MoreFP <> B:285 var
+binder 30808:30814 <> process:287
+R30847:30849 LF.MoreFP <> Cnt def
+binder 30841:30843 <> cnt:288
+R30857:30859 Coq.Init.Datatypes <> ::type_scope:x_'*'_x not
+R30854:30856 LF.MoreFP <> Cnt def
+R30860:30860 LF.MoreFP <> B:285 var
+R30883:30886 LF.MoreFP <> step:286 var
+R30888:30890 LF.MoreFP <> cnt:288 var
+binder 30871:30874 <> cnt':289
+binder 30877:30877 <> v:290
+R30896:30902 LF.MoreFP <> process:287 var
+R30906:30909 LF.MoreFP <> cnt':289 var
+R30904:30904 LF.MoreFP <> v:290 var
+def 31321:31328 <> Counting
+binder 31331:31331 <> X:291
+R31354:31357 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R31351:31353 LF.MoreFP <> Cnt def
+R31361:31363 Coq.Init.Datatypes <> ::type_scope:x_'*'_x not
+R31358:31360 LF.MoreFP <> Cnt def
+R31364:31364 LF.MoreFP <> X:291 var
+R31670:31689 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R31658:31665 LF.MoreFP <> Counting def
+R31667:31669 Coq.Init.Datatypes <> nat ind
+R31690:31690 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R31710:31730 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R31694:31697 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R31691:31693 Coq.Init.Datatypes <> nat ind
+R31698:31705 LF.MoreFP <> Counting def
+R31707:31709 Coq.Init.Datatypes <> nat ind
+R31731:31738 LF.MoreFP <> Counting def
+R31740:31742 Coq.Init.Datatypes <> nat ind
+R31618:31629 LF.MoreFP <> bind_counter def
+R31631:31633 Coq.Init.Datatypes <> nat ind
+R31635:31637 Coq.Init.Datatypes <> nat ind
+inst 31890:31900 <> monCounting
+R31904:31908 LF.MoreFP <> Monad class
+R31910:31917 LF.MoreFP <> Counting def
+R31927:31929 LF.MoreFP <> ret meth
+R31981:31984 LF.MoreFP <> bind meth
+binder 31994:31994 <> A:292
+binder 31996:31996 <> B:293
+R32008:32015 LF.MoreFP <> Counting def
+R32017:32017 LF.MoreFP <> A:292 var
+binder 32005:32005 <> x:294
+R32024:32027 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R32023:32023 LF.MoreFP <> A:292 var
+R32028:32035 LF.MoreFP <> Counting def
+R32037:32037 LF.MoreFP <> B:293 var
+binder 32021:32021 <> f:295
+binder 32059:32061 <> cnt:296
+R32084:32084 LF.MoreFP <> x:294 var
+R32086:32088 LF.MoreFP <> cnt:296 var
+binder 32071:32074 <> cnt1:297
+binder 32076:32077 <> v1:298
+R32095:32095 LF.MoreFP <> f:295 var
+R32097:32098 LF.MoreFP <> v1:298 var
+R32101:32104 LF.MoreFP <> cnt1:297 var
+binder 31939:31939 <> A:299
+R31950:31950 LF.MoreFP <> A:299 var
+binder 31948:31948 <> x:300
+binder 31960:31962 <> cnt:301
+R31967:31967 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R31971:31972 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R31974:31974 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R31968:31970 LF.MoreFP <> cnt:301 var
+R31973:31973 LF.MoreFP <> x:300 var
+def 32119:32124 <> eval_c
+R32129:32133 LF.MoreFP <> exp_c ind
+binder 32127:32127 <> e:302
+R32138:32145 LF.MoreFP <> Counting def
+R32147:32149 Coq.Init.Datatypes <> nat ind
+R32163:32163 LF.MoreFP <> e:302 var
+R32177:32181 LF.MoreFP <> Num_c constr
+R32193:32195 LF.MoreFP <> ret meth
+R32205:32210 LF.MoreFP <> Plus_c constr
+R32223:32226 LF.MoreFP Monads :::x_'<-'_x_';;'_x not
+R32236:32261 LF.MoreFP Monads :::x_'<-'_x_';;'_x not
+R32227:32232 LF.MoreFP <> eval_c:303 def
+binder 32221:32222 <> n1:305
+R32264:32267 LF.MoreFP Monads :::x_'<-'_x_';;'_x not
+R32277:32302 LF.MoreFP Monads :::x_'<-'_x_';;'_x not
+R32268:32273 LF.MoreFP <> eval_c:303 def
+binder 32262:32263 <> n2:306
+R32303:32305 LF.MoreFP <> ret meth
+R32310:32312 Coq.Init.Peano <> ::nat_scope:x_'+'_x not
+R32308:32309 LF.MoreFP <> n1:305 var
+R32313:32314 LF.MoreFP <> n2:306 var
+R32323:32325 LF.MoreFP <> Inc constr
+binder 32340:32342 <> cnt:307
+R32347:32347 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R32353:32354 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R32358:32358 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R32348:32348 Coq.Init.Datatypes <> S constr
+R32350:32352 LF.MoreFP <> cnt:307 var
+R32355:32357 LF.MoreFP <> cnt:307 var
+def 32484:32492 <> topEval_c
+binder 32494:32494 <> e:308
+R32499:32501 Coq.Init.Datatypes <> snd def
+R32504:32509 LF.MoreFP <> eval_c def
+R32511:32511 LF.MoreFP <> e:308 var
+R32561:32569 LF.MoreFP <> topEval_c def
+R32572:32577 LF.MoreFP <> Plus_c constr
+R32579:32581 LF.MoreFP <> Inc constr
+R32583:32585 LF.MoreFP <> Inc constr
+R32619:32627 LF.MoreFP <> topEval_c def
+R32630:32635 LF.MoreFP <> Plus_c constr
+R32637:32639 LF.MoreFP <> Inc constr
+R32642:32647 LF.MoreFP <> Plus_c constr
+R32649:32651 LF.MoreFP <> Inc constr
+R32653:32655 LF.MoreFP <> Inc constr
+def 32777:32779 <> get
+R32783:32790 LF.MoreFP <> Counting def
+R32792:32794 LF.MoreFP <> Cnt def
+binder 32803:32805 <> cnt:309
+R32810:32810 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R32814:32814 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R32818:32818 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R32811:32813 LF.MoreFP <> cnt:309 var
+R32815:32817 LF.MoreFP <> cnt:309 var
+def 32899:32901 <> put
+R32913:32915 LF.MoreFP <> Cnt def
+binder 32904:32909 <> newCnt:310
+R32920:32927 LF.MoreFP <> Counting def
+R32929:32932 Coq.Init.Datatypes <> unit ind
+binder 32941:32943 <> cnt:311
+R32948:32948 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R32955:32955 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R32958:32958 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R32949:32954 LF.MoreFP <> newCnt:310 var
+R32956:32957 Coq.Init.Datatypes <> tt constr
+def 33032:33038 <> eval'_c
+R33043:33047 LF.MoreFP <> exp_c ind
+binder 33041:33041 <> e:312
+R33052:33059 LF.MoreFP <> Counting def
+R33061:33063 Coq.Init.Datatypes <> nat ind
+R33077:33077 LF.MoreFP <> e:312 var
+R33091:33095 LF.MoreFP <> Num_c constr
+R33102:33104 LF.MoreFP <> ret meth
+R33114:33119 LF.MoreFP <> Plus_c constr
+R33132:33135 LF.MoreFP Monads :::x_'<-'_x_';;'_x not
+R33146:33171 LF.MoreFP Monads :::x_'<-'_x_';;'_x not
+R33136:33142 LF.MoreFP <> eval'_c:313 def
+binder 33130:33131 <> n1:315
+R33174:33177 LF.MoreFP Monads :::x_'<-'_x_';;'_x not
+R33188:33213 LF.MoreFP Monads :::x_'<-'_x_';;'_x not
+R33178:33184 LF.MoreFP <> eval'_c:313 def
+binder 33172:33173 <> n2:316
+R33214:33216 LF.MoreFP <> ret meth
+R33221:33223 Coq.Init.Peano <> ::nat_scope:x_'+'_x not
+R33219:33220 LF.MoreFP <> n1:315 var
+R33224:33225 LF.MoreFP <> n2:316 var
+R33234:33236 LF.MoreFP <> Inc constr
+R33244:33247 LF.MoreFP Monads :::x_'<-'_x_';;'_x not
+R33251:33270 LF.MoreFP Monads :::x_'<-'_x_';;'_x not
+R33248:33250 LF.MoreFP <> get def
+binder 33241:33243 <> cnt:317
+R33272:33275 LF.MoreFP Monads :::x_'<-'_x_';;'_x not
+R33289:33308 LF.MoreFP Monads :::x_'<-'_x_';;'_x not
+R33276:33278 LF.MoreFP <> put def
+R33284:33286 Coq.Init.Peano <> ::nat_scope:x_'+'_x not
+R33281:33283 LF.MoreFP <> cnt:317 var
+R33309:33311 LF.MoreFP <> ret meth
+R33314:33316 LF.MoreFP <> cnt:317 var
+def 33686:33688 <> var
+R33693:33698 Coq.Strings.String <> string ind
+def 33712:33716 <> state
+R33724:33727 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R33721:33723 LF.MoreFP <> var def
+R33728:33730 Coq.Init.Datatypes <> nat ind
+def 33745:33756 <> update_state
+R33763:33767 LF.MoreFP <> state def
+binder 33759:33759 <> s:318
+R33775:33777 LF.MoreFP <> var def
+binder 33771:33771 <> x:319
+R33785:33787 Coq.Init.Datatypes <> nat ind
+binder 33781:33781 <> n:320
+R33792:33796 LF.MoreFP <> state def
+binder 33807:33808 <> x':321
+R33816:33825 Coq.Strings.String <> eqb def
+R33827:33827 LF.MoreFP <> x:319 var
+R33829:33830 LF.MoreFP <> x':321 var
+R33844:33844 LF.MoreFP <> s:318 var
+R33846:33847 LF.MoreFP <> x':321 var
+R33837:33837 LF.MoreFP <> n:320 var
+not 33860:33860 Monads :::'''_'''_'!->'_x
+R33961:33972 LF.MoreFP <> update_state def
+not 33939:33939 Monads :::x_'!->'_x_';'_x
+ind 34076:34080 <> exp_v
+constr 34095:34099 <> Var_v
+constr 34118:34123 <> Plus_v
+constr 34153:34159 <> Times_v
+constr 34189:34195 <> Store_v
+constr 34223:34227 <> Seq_v
+constr 34257:34261 <> If0_v
+R34106:34109 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R34103:34105 LF.MoreFP <> var def
+R34110:34114 LF.MoreFP <> exp_v:322 ind
+R34132:34135 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R34127:34131 LF.MoreFP <> exp_v:322 ind
+R34141:34144 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R34136:34140 LF.MoreFP <> exp_v:322 ind
+R34145:34149 LF.MoreFP <> exp_v:322 ind
+R34168:34171 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R34163:34167 LF.MoreFP <> exp_v:322 ind
+R34177:34180 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R34172:34176 LF.MoreFP <> exp_v:322 ind
+R34181:34185 LF.MoreFP <> exp_v:322 ind
+R34202:34205 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R34199:34201 LF.MoreFP <> var def
+R34211:34214 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R34206:34210 LF.MoreFP <> exp_v:322 ind
+R34215:34219 LF.MoreFP <> exp_v:322 ind
+R34236:34239 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R34231:34235 LF.MoreFP <> exp_v:322 ind
+R34245:34248 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R34240:34244 LF.MoreFP <> exp_v:322 ind
+R34249:34253 LF.MoreFP <> exp_v:322 ind
+R34270:34273 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R34265:34269 LF.MoreFP <> exp_v:322 ind
+R34279:34282 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R34274:34278 LF.MoreFP <> exp_v:322 ind
+R34288:34291 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R34283:34287 LF.MoreFP <> exp_v:322 ind
+R34292:34296 LF.MoreFP <> exp_v:322 ind
+def 34425:34431 <> eval_v0
+R34438:34442 LF.MoreFP <> exp_v ind
+binder 34434:34434 <> e:324
+R34450:34454 LF.MoreFP <> state def
+binder 34446:34446 <> s:325
+R34465:34467 Coq.Init.Datatypes <> ::type_scope:x_'*'_x not
+R34460:34464 LF.MoreFP <> state def
+R34468:34470 Coq.Init.Datatypes <> nat ind
+R34485:34485 LF.MoreFP <> e:324 var
+R34499:34503 LF.MoreFP <> Var_v constr
+R34510:34510 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R34512:34513 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R34517:34517 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R34511:34511 LF.MoreFP <> s:325 var
+R34514:34514 LF.MoreFP <> s:325 var
+R34525:34530 LF.MoreFP <> Plus_v constr
+R34564:34570 LF.MoreFP <> eval_v0:326 def
+R34575:34575 LF.MoreFP <> s:325 var
+binder 34553:34554 <> s1:328
+binder 34557:34558 <> n1:329
+R34602:34608 LF.MoreFP <> eval_v0:326 def
+R34613:34614 LF.MoreFP <> s1:328 var
+binder 34591:34592 <> s2:330
+binder 34595:34596 <> n2:331
+R34626:34626 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R34629:34630 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R34636:34636 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R34627:34628 LF.MoreFP <> s2:330 var
+R34633:34633 Coq.Init.Peano <> ::nat_scope:x_'+'_x not
+R34631:34632 LF.MoreFP <> n1:329 var
+R34634:34635 LF.MoreFP <> n2:331 var
+R34644:34650 LF.MoreFP <> Times_v constr
+R34683:34689 LF.MoreFP <> eval_v0:326 def
+R34694:34694 LF.MoreFP <> s:325 var
+binder 34672:34673 <> s1:332
+binder 34676:34677 <> n1:333
+R34721:34727 LF.MoreFP <> eval_v0:326 def
+R34732:34733 LF.MoreFP <> s1:332 var
+binder 34710:34711 <> s2:334
+binder 34714:34715 <> n2:335
+R34745:34745 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R34748:34749 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R34755:34755 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R34746:34747 LF.MoreFP <> s2:334 var
+R34752:34752 Coq.Init.Peano <> ::nat_scope:x_'*'_x not
+R34750:34751 LF.MoreFP <> n1:333 var
+R34753:34754 LF.MoreFP <> n2:335 var
+R34763:34769 LF.MoreFP <> Store_v constr
+R34801:34807 LF.MoreFP <> eval_v0:326 def
+R34811:34811 LF.MoreFP <> s:325 var
+R34809:34809 LF.MoreFP <> e:324 var
+binder 34790:34791 <> s1:336
+binder 34794:34795 <> n1:337
+R34823:34823 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R34836:34837 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R34840:34840 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R34825:34829 LF.MoreFP Monads :::x_'!->'_x_';'_x not
+R34832:34834 LF.MoreFP Monads :::x_'!->'_x_';'_x not
+R34835:34835 LF.MoreFP <> s:325 var
+R34830:34831 LF.MoreFP <> n1:337 var
+R34838:34839 LF.MoreFP <> n1:337 var
+R34848:34852 LF.MoreFP <> Seq_v constr
+R34886:34892 LF.MoreFP <> eval_v0:326 def
+R34897:34897 LF.MoreFP <> s:325 var
+binder 34875:34876 <> s1:338
+binder 34879:34880 <> n1:339
+R34908:34914 LF.MoreFP <> eval_v0:326 def
+R34919:34920 LF.MoreFP <> s1:338 var
+R34928:34932 LF.MoreFP <> If0_v constr
+R34969:34975 LF.MoreFP <> eval_v0:326 def
+R34980:34980 LF.MoreFP <> s:325 var
+binder 34958:34959 <> s1:340
+binder 34962:34963 <> n1:341
+R34998:34999 LF.MoreFP <> n1:341 var
+R35022:35028 LF.MoreFP <> eval_v0:326 def
+R35033:35034 LF.MoreFP <> s1:340 var
+R35051:35057 LF.MoreFP <> eval_v0:326 def
+R35062:35063 LF.MoreFP <> s1:340 var
+R35091:35093 Coq.Init.Datatypes <> snd def
+R35096:35102 LF.MoreFP <> eval_v0 def
+R35115:35119 LF.MoreFP <> Var_v constr
+R35140:35144 LF.MoreFP Monads :::x_'!->'_x_';'_x not
+R35146:35148 LF.MoreFP Monads :::x_'!->'_x_';'_x not
+R35152:35156 LF.MoreFP Monads :::x_'!->'_x_';'_x not
+R35158:35160 LF.MoreFP Monads :::x_'!->'_x_';'_x not
+R35161:35166 LF.MoreFP Monads :::'''_'''_'!->'_x not
+R35200:35202 Coq.Init.Datatypes <> snd def
+R35205:35211 LF.MoreFP <> eval_v0 def
+R35224:35228 LF.MoreFP <> Seq_v constr
+R35231:35237 LF.MoreFP <> Store_v constr
+R35244:35249 LF.MoreFP <> Plus_v constr
+R35252:35256 LF.MoreFP <> Var_v constr
+R35264:35268 LF.MoreFP <> Var_v constr
+R35295:35299 LF.MoreFP <> Var_v constr
+R35320:35324 LF.MoreFP Monads :::x_'!->'_x_';'_x not
+R35326:35328 LF.MoreFP Monads :::x_'!->'_x_';'_x not
+R35332:35336 LF.MoreFP Monads :::x_'!->'_x_';'_x not
+R35338:35340 LF.MoreFP Monads :::x_'!->'_x_';'_x not
+R35341:35346 LF.MoreFP Monads :::'''_'''_'!->'_x not
+def 35419:35427 <> StateComp
+binder 35430:35430 <> S:343
+binder 35441:35441 <> A:344
+R35455:35459 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R35465:35465 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R35454:35454 LF.MoreFP <> S:343 var
+R35461:35463 Coq.Init.Datatypes <> ::type_scope:x_'*'_x not
+R35460:35460 LF.MoreFP <> S:343 var
+R35464:35464 LF.MoreFP <> A:344 var
+inst 35478:35485 <> monState
+binder 35488:35488 <> S:345
+R35500:35504 LF.MoreFP <> Monad class
+R35507:35515 LF.MoreFP <> StateComp def
+R35517:35517 LF.MoreFP <> S:345 var
+R35527:35529 LF.MoreFP <> ret meth
+R35582:35585 LF.MoreFP <> bind meth
+binder 35595:35595 <> A:346
+binder 35597:35597 <> B:347
+R35610:35618 LF.MoreFP <> StateComp def
+R35622:35622 LF.MoreFP <> A:346 var
+binder 35606:35606 <> c:348
+R35630:35633 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R35629:35629 LF.MoreFP <> A:346 var
+R35634:35642 LF.MoreFP <> StateComp def
+R35646:35646 LF.MoreFP <> B:347 var
+binder 35626:35626 <> f:349
+binder 35670:35670 <> s:350
+R35709:35709 LF.MoreFP <> c:348 var
+R35711:35711 LF.MoreFP <> s:350 var
+binder 35700:35701 <> s':351
+binder 35703:35703 <> v:352
+R35731:35731 LF.MoreFP <> f:349 var
+R35735:35736 LF.MoreFP <> s':351 var
+R35733:35733 LF.MoreFP <> v:352 var
+binder 35539:35539 <> A:353
+R35550:35550 LF.MoreFP <> A:353 var
+binder 35548:35548 <> x:354
+binder 35561:35561 <> s:355
+R35571:35571 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R35573:35573 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R35575:35575 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R35572:35572 LF.MoreFP <> s:355 var
+R35574:35574 LF.MoreFP <> x:354 var
+def 35908:35911 <> read
+R35916:35918 LF.MoreFP <> var def
+binder 35914:35914 <> x:356
+R35923:35931 LF.MoreFP <> StateComp def
+R35933:35937 LF.MoreFP <> state def
+R35939:35941 Coq.Init.Datatypes <> nat ind
+binder 35953:35953 <> s:357
+R35958:35958 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R35960:35961 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R35965:35965 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R35959:35959 LF.MoreFP <> s:357 var
+R35962:35962 LF.MoreFP <> s:357 var
+R35964:35964 LF.MoreFP <> x:356 var
+def 36045:36049 <> write
+R36054:36056 LF.MoreFP <> var def
+binder 36052:36052 <> x:358
+R36062:36064 Coq.Init.Datatypes <> nat ind
+binder 36060:36060 <> n:359
+R36069:36077 LF.MoreFP <> StateComp def
+R36079:36083 LF.MoreFP <> state def
+R36085:36087 Coq.Init.Datatypes <> nat ind
+binder 36099:36099 <> s:360
+R36104:36104 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R36116:36117 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R36119:36119 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R36106:36110 LF.MoreFP Monads :::x_'!->'_x_';'_x not
+R36112:36114 LF.MoreFP Monads :::x_'!->'_x_';'_x not
+R36115:36115 LF.MoreFP <> s:360 var
+R36105:36105 LF.MoreFP <> x:358 var
+R36111:36111 LF.MoreFP <> n:359 var
+R36118:36118 LF.MoreFP <> n:359 var
+def 36345:36350 <> eval_v
+R36357:36361 LF.MoreFP <> exp_v ind
+binder 36353:36353 <> e:361
+R36366:36374 LF.MoreFP <> StateComp def
+R36376:36380 LF.MoreFP <> state def
+R36382:36384 Coq.Init.Datatypes <> nat ind
+R36398:36398 LF.MoreFP <> e:361 var
+R36412:36416 LF.MoreFP <> Var_v constr
+R36423:36426 LF.MoreFP <> read def
+R36436:36441 LF.MoreFP <> Plus_v constr
+R36461:36464 LF.MoreFP Monads :::x_'<-'_x_';;'_x not
+R36474:36484 LF.MoreFP Monads :::x_'<-'_x_';;'_x not
+R36465:36470 LF.MoreFP <> eval_v:362 def
+binder 36459:36460 <> n1:364
+R36487:36490 LF.MoreFP Monads :::x_'<-'_x_';;'_x not
+R36500:36510 LF.MoreFP Monads :::x_'<-'_x_';;'_x not
+R36491:36496 LF.MoreFP <> eval_v:362 def
+binder 36485:36486 <> n2:365
+R36511:36513 LF.MoreFP <> ret meth
+R36518:36520 Coq.Init.Peano <> ::nat_scope:x_'+'_x not
+R36516:36517 LF.MoreFP <> n1:364 var
+R36521:36522 LF.MoreFP <> n2:365 var
+R36531:36537 LF.MoreFP <> Times_v constr
+R36556:36559 LF.MoreFP Monads :::x_'<-'_x_';;'_x not
+R36569:36579 LF.MoreFP Monads :::x_'<-'_x_';;'_x not
+R36560:36565 LF.MoreFP <> eval_v:362 def
+binder 36554:36555 <> n1:366
+R36582:36585 LF.MoreFP Monads :::x_'<-'_x_';;'_x not
+R36595:36605 LF.MoreFP Monads :::x_'<-'_x_';;'_x not
+R36586:36591 LF.MoreFP <> eval_v:362 def
+binder 36580:36581 <> n2:367
+R36606:36608 LF.MoreFP <> ret meth
+R36613:36615 Coq.Init.Peano <> ::nat_scope:x_'*'_x not
+R36611:36612 LF.MoreFP <> n1:366 var
+R36616:36617 LF.MoreFP <> n2:367 var
+R36626:36632 LF.MoreFP <> Store_v constr
+R36649:36652 LF.MoreFP Monads :::x_'<-'_x_';;'_x not
+R36661:36671 LF.MoreFP Monads :::x_'<-'_x_';;'_x not
+R36653:36658 LF.MoreFP <> eval_v:362 def
+R36660:36660 LF.MoreFP <> e:361 var
+binder 36648:36648 <> n:368
+R36672:36676 LF.MoreFP <> write def
+R36680:36680 LF.MoreFP <> n:368 var
+R36689:36693 LF.MoreFP <> Seq_v constr
+R36712:36715 LF.MoreFP Monads :::x_'<-'_x_';;'_x not
+R36725:36735 LF.MoreFP Monads :::x_'<-'_x_';;'_x not
+R36716:36721 LF.MoreFP <> eval_v:362 def
+R36736:36741 LF.MoreFP <> eval_v:362 def
+R36752:36756 LF.MoreFP <> If0_v constr
+R36778:36781 LF.MoreFP Monads :::x_'<-'_x_';;'_x not
+R36791:36800 LF.MoreFP Monads :::x_'<-'_x_';;'_x not
+R36782:36787 LF.MoreFP <> eval_v:362 def
+binder 36777:36777 <> n:369
+R36807:36807 LF.MoreFP <> n:369 var
+R36830:36835 LF.MoreFP <> eval_v:362 def
+R36855:36860 LF.MoreFP <> eval_v:362 def
+ind 37099:37104 <> exp_nd
+constr 37119:37127 <> Choose_nd
+constr 37152:37158 <> Plus_nd
+constr 37191:37198 <> Times_nd
+R37139:37142 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R37131:37134 Coq.Init.Datatypes <> list ind
+R37136:37138 Coq.Init.Datatypes <> nat ind
+R37143:37148 LF.MoreFP <> exp_nd:371 ind
+R37168:37171 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R37162:37167 LF.MoreFP <> exp_nd:371 ind
+R37178:37181 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R37172:37177 LF.MoreFP <> exp_nd:371 ind
+R37182:37187 LF.MoreFP <> exp_nd:371 ind
+R37208:37211 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R37202:37207 LF.MoreFP <> exp_nd:371 ind
+R37218:37221 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R37212:37217 LF.MoreFP <> exp_nd:371 ind
+R37222:37227 LF.MoreFP <> exp_nd:371 ind
+def 37463:37474 <> add_num_list
+binder 37476:37476 <> n:373
+binder 37478:37478 <> l:374
+R37482:37484 Coq.Lists.List <> map def
+R37503:37503 LF.MoreFP <> l:374 var
+binder 37491:37491 <> x:375
+R37497:37499 Coq.Init.Peano <> ::nat_scope:x_'+'_x not
+R37496:37496 LF.MoreFP <> n:373 var
+R37500:37500 LF.MoreFP <> x:375 var
+R37515:37526 LF.MoreFP <> add_num_list def
+R37530:37530 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R37532:37532 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R37534:37534 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+def 37580:37592 <> add_list_list
+binder 37594:37595 <> l1:376
+binder 37597:37598 <> l2:377
+R37602:37604 Coq.Lists.List <> map def
+R37635:37636 LF.MoreFP <> l2:377 var
+binder 37611:37611 <> x:378
+R37616:37627 LF.MoreFP <> add_num_list def
+R37629:37629 LF.MoreFP <> x:378 var
+R37631:37632 LF.MoreFP <> l1:376 var
+R37648:37660 LF.MoreFP <> add_list_list def
+R37662:37662 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R37664:37664 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R37666:37666 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R37668:37668 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R37670:37670 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R37672:37672 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+def 37735:37741 <> flatten
+binder 37744:37744 <> A:379
+R37756:37759 Coq.Init.Datatypes <> list ind
+R37762:37765 Coq.Init.Datatypes <> list ind
+R37767:37767 LF.MoreFP <> A:379 var
+binder 37753:37754 <> xs:380
+R37777:37786 Coq.Lists.List <> fold_right def
+R37801:37802 LF.MoreFP <> xs:380 var
+R37797:37799 Coq.Init.Datatypes <> nil constr
+R37790:37792 Coq.Init.Datatypes <> app def
+R37794:37794 LF.MoreFP <> A:379 var
+R37815:37821 LF.MoreFP <> flatten def
+R37824:37836 LF.MoreFP <> add_list_list def
+R37838:37838 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R37840:37840 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R37842:37842 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R37844:37844 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R37846:37846 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R37848:37848 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+def 37930:37941 <> mul_num_list
+binder 37943:37943 <> n:381
+binder 37945:37945 <> l:382
+R37949:37951 Coq.Lists.List <> map def
+R37970:37970 LF.MoreFP <> l:382 var
+binder 37958:37958 <> x:383
+R37964:37966 Coq.Init.Peano <> ::nat_scope:x_'*'_x not
+R37963:37963 LF.MoreFP <> n:381 var
+R37967:37967 LF.MoreFP <> x:383 var
+R37982:37993 LF.MoreFP <> mul_num_list def
+R37997:37997 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R37999:37999 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R38001:38001 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+def 38047:38059 <> mul_list_list
+binder 38061:38062 <> l1:384
+binder 38064:38065 <> l2:385
+R38069:38071 Coq.Lists.List <> map def
+R38102:38103 LF.MoreFP <> l2:385 var
+binder 38078:38078 <> x:386
+R38083:38094 LF.MoreFP <> mul_num_list def
+R38096:38096 LF.MoreFP <> x:386 var
+R38098:38099 LF.MoreFP <> l1:384 var
+R38115:38127 LF.MoreFP <> mul_list_list def
+R38129:38129 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R38131:38131 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R38133:38133 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R38135:38135 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R38137:38137 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R38139:38139 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R38193:38199 LF.MoreFP <> flatten def
+R38202:38214 LF.MoreFP <> mul_list_list def
+R38216:38216 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R38218:38218 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R38220:38220 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R38222:38222 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R38224:38224 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R38226:38226 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+def 38328:38341 <> apply_num_list
+R38351:38354 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R38348:38350 Coq.Init.Datatypes <> nat ind
+R38358:38361 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R38355:38357 Coq.Init.Datatypes <> nat ind
+R38362:38364 Coq.Init.Datatypes <> nat ind
+binder 38344:38344 <> f:387
+binder 38367:38367 <> n:388
+binder 38369:38369 <> l:389
+R38373:38375 Coq.Lists.List <> map def
+R38394:38394 LF.MoreFP <> l:389 var
+binder 38382:38382 <> x:390
+R38387:38387 LF.MoreFP <> f:387 var
+R38391:38391 LF.MoreFP <> x:390 var
+R38389:38389 LF.MoreFP <> n:388 var
+R38407:38420 LF.MoreFP <> apply_num_list def
+R38422:38425 Coq.Init.Peano <> plus syndef
+R38429:38429 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R38431:38431 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R38433:38433 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R38478:38491 LF.MoreFP <> apply_num_list def
+R38493:38496 Coq.Init.Peano <> mult syndef
+R38500:38500 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R38502:38502 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R38504:38504 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+def 38551:38565 <> apply_list_list
+binder 38567:38567 <> f:391
+binder 38569:38570 <> l1:392
+binder 38572:38573 <> l2:393
+R38577:38579 Coq.Lists.List <> map def
+R38614:38615 LF.MoreFP <> l2:393 var
+binder 38586:38586 <> x:394
+R38591:38604 LF.MoreFP <> apply_num_list def
+R38606:38606 LF.MoreFP <> f:391 var
+R38608:38608 LF.MoreFP <> x:394 var
+R38610:38611 LF.MoreFP <> l1:392 var
+R38627:38641 LF.MoreFP <> apply_list_list def
+R38643:38646 Coq.Init.Peano <> plus syndef
+R38648:38648 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R38650:38650 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R38652:38652 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R38654:38654 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R38656:38656 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R38658:38658 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R38718:38732 LF.MoreFP <> apply_list_list def
+R38734:38737 Coq.Init.Peano <> mult syndef
+R38739:38739 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R38741:38741 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R38743:38743 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R38745:38745 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R38747:38747 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R38749:38749 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+def 38879:38886 <> eval_nd0
+R38891:38896 LF.MoreFP <> exp_nd ind
+binder 38889:38889 <> e:395
+R38901:38904 Coq.Init.Datatypes <> list ind
+R38906:38908 Coq.Init.Datatypes <> nat ind
+R38922:38922 LF.MoreFP <> e:395 var
+R38936:38944 LF.MoreFP <> Choose_nd constr
+R38961:38967 LF.MoreFP <> Plus_nd constr
+R38985:38991 LF.MoreFP <> flatten def
+R38994:39008 LF.MoreFP <> apply_list_list def
+R39010:39013 Coq.Init.Peano <> plus syndef
+R39016:39023 LF.MoreFP <> eval_nd0:396 def
+R39030:39037 LF.MoreFP <> eval_nd0:396 def
+R39050:39057 LF.MoreFP <> Times_nd constr
+R39075:39081 LF.MoreFP <> flatten def
+R39084:39098 LF.MoreFP <> apply_list_list def
+R39100:39103 Coq.Init.Peano <> mult syndef
+R39106:39113 LF.MoreFP <> eval_nd0:396 def
+R39120:39127 LF.MoreFP <> eval_nd0:396 def
+R39150:39157 LF.MoreFP <> eval_nd0 def
+R39160:39166 LF.MoreFP <> Plus_nd constr
+R39169:39177 LF.MoreFP <> Choose_nd constr
+R39179:39179 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R39181:39181 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R39183:39183 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R39214:39222 LF.MoreFP <> Choose_nd constr
+R39224:39224 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R39226:39226 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R39228:39228 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R39230:39230 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+inst 39336:39342 <> monList
+R39346:39350 LF.MoreFP <> Monad class
+R39352:39355 Coq.Init.Datatypes <> list ind
+R39453:39455 LF.MoreFP <> ret meth
+R39364:39367 LF.MoreFP <> bind meth
+binder 39377:39377 <> A:398
+binder 39379:39379 <> B:399
+R39390:39393 Coq.Init.Datatypes <> list ind
+R39395:39395 LF.MoreFP <> A:398 var
+binder 39388:39388 <> c:400
+R39403:39406 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R39402:39402 LF.MoreFP <> A:398 var
+R39407:39410 Coq.Init.Datatypes <> list ind
+R39412:39412 LF.MoreFP <> B:399 var
+binder 39399:39399 <> f:401
+R39431:39437 LF.MoreFP <> flatten def
+R39440:39442 Coq.Lists.List <> map def
+R39446:39446 LF.MoreFP <> c:400 var
+R39444:39444 LF.MoreFP <> f:401 var
+binder 39465:39465 <> A:402
+R39476:39476 LF.MoreFP <> A:402 var
+binder 39474:39474 <> x:403
+R39484:39485 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R39483:39483 LF.MoreFP <> x:403 var
+R39486:39488 Coq.Init.Datatypes <> nil constr
+def 39504:39510 <> eval_nd
+R39515:39520 LF.MoreFP <> exp_nd ind
+binder 39513:39513 <> e:404
+R39525:39528 Coq.Init.Datatypes <> list ind
+R39530:39532 Coq.Init.Datatypes <> nat ind
+R39546:39546 LF.MoreFP <> e:404 var
+R39560:39568 LF.MoreFP <> Choose_nd constr
+R39585:39591 LF.MoreFP <> Plus_nd constr
+R39611:39614 LF.MoreFP Monads :::x_'<-'_x_';;'_x not
+R39625:39634 LF.MoreFP Monads :::x_'<-'_x_';;'_x not
+R39615:39621 LF.MoreFP <> eval_nd:405 def
+binder 39609:39610 <> n1:407
+R39637:39640 LF.MoreFP Monads :::x_'<-'_x_';;'_x not
+R39651:39660 LF.MoreFP Monads :::x_'<-'_x_';;'_x not
+R39641:39647 LF.MoreFP <> eval_nd:405 def
+binder 39635:39636 <> n2:408
+R39661:39663 LF.MoreFP <> ret meth
+R39668:39670 Coq.Init.Peano <> ::nat_scope:x_'+'_x not
+R39666:39667 LF.MoreFP <> n1:407 var
+R39671:39672 LF.MoreFP <> n2:408 var
+R39681:39688 LF.MoreFP <> Times_nd constr
+R39708:39711 LF.MoreFP Monads :::x_'<-'_x_';;'_x not
+R39722:39731 LF.MoreFP Monads :::x_'<-'_x_';;'_x not
+R39712:39718 LF.MoreFP <> eval_nd:405 def
+binder 39706:39707 <> n1:409
+R39734:39737 LF.MoreFP Monads :::x_'<-'_x_';;'_x not
+R39748:39757 LF.MoreFP Monads :::x_'<-'_x_';;'_x not
+R39738:39744 LF.MoreFP <> eval_nd:405 def
+binder 39732:39733 <> n2:410
+R39758:39760 LF.MoreFP <> ret meth
+R39765:39767 Coq.Init.Peano <> ::nat_scope:x_'*'_x not
+R39763:39764 LF.MoreFP <> n1:409 var
+R39768:39769 LF.MoreFP <> n2:410 var
+R39788:39794 LF.MoreFP <> eval_nd def
+R39797:39803 LF.MoreFP <> Plus_nd constr
+R39806:39814 LF.MoreFP <> Choose_nd constr
+R39816:39816 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R39818:39818 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R39820:39820 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R39850:39858 LF.MoreFP <> Choose_nd constr
+R39860:39860 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R39862:39862 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R39864:39864 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R39866:39866 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+prf 41688:41705 <> m_left_id_Counting
+binder 41720:41720 <> A:411
+binder 41722:41722 <> B:412
+R41735:41735 LF.MoreFP <> A:411 var
+binder 41733:41733 <> x:413
+R41744:41747 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R41743:41743 LF.MoreFP <> A:411 var
+R41748:41755 LF.MoreFP <> Counting def
+R41757:41757 LF.MoreFP <> B:412 var
+binder 41739:41739 <> f:414
+R41767:41769 Coq.Init.Datatypes <> nat ind
+binder 41761:41763 <> cnt:415
+R41794:41796 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R41776:41779 LF.MoreFP <> bind meth
+R41791:41793 LF.MoreFP <> cnt:415 var
+R41789:41789 LF.MoreFP <> f:414 var
+R41782:41784 LF.MoreFP <> ret meth
+R41786:41786 LF.MoreFP <> x:413 var
+R41797:41797 LF.MoreFP <> f:414 var
+R41801:41803 LF.MoreFP <> cnt:415 var
+R41799:41799 LF.MoreFP <> x:413 var
+R41840:41843 LF.MoreFP <> bind meth
+prf 41871:41889 <> m_right_id_Counting
+binder 41904:41904 <> A:416
+R41917:41924 LF.MoreFP <> Counting def
+R41926:41926 LF.MoreFP <> A:416 var
+binder 41913:41913 <> c:417
+R41936:41938 Coq.Init.Datatypes <> nat ind
+binder 41930:41932 <> cnt:418
+R41958:41960 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R41944:41947 LF.MoreFP <> bind meth
+R41955:41957 LF.MoreFP <> cnt:418 var
+R41951:41953 LF.MoreFP <> ret meth
+R41949:41949 LF.MoreFP <> c:417 var
+R41961:41961 LF.MoreFP <> c:417 var
+R41963:41965 LF.MoreFP <> cnt:418 var
+prf 42041:42056 <> m_assoc_Counting
+binder 42071:42071 <> A:419
+binder 42073:42073 <> B:420
+binder 42075:42075 <> C:421
+R42087:42094 LF.MoreFP <> Counting def
+R42096:42096 LF.MoreFP <> A:419 var
+binder 42085:42085 <> c:422
+R42108:42111 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R42107:42107 LF.MoreFP <> A:419 var
+R42112:42119 LF.MoreFP <> Counting def
+R42121:42121 LF.MoreFP <> B:420 var
+binder 42103:42103 <> f:423
+R42130:42133 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R42129:42129 LF.MoreFP <> B:420 var
+R42134:42141 LF.MoreFP <> Counting def
+R42143:42143 LF.MoreFP <> C:421 var
+binder 42125:42125 <> g:424
+R42153:42155 Coq.Init.Datatypes <> nat ind
+binder 42147:42149 <> cnt:425
+R42184:42186 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R42163:42166 LF.MoreFP <> bind meth
+R42181:42183 LF.MoreFP <> cnt:425 var
+R42179:42179 LF.MoreFP <> g:424 var
+R42169:42172 LF.MoreFP <> bind meth
+R42176:42176 LF.MoreFP <> f:423 var
+R42174:42174 LF.MoreFP <> c:422 var
+R42187:42190 LF.MoreFP <> bind meth
+R42218:42220 LF.MoreFP <> cnt:425 var
+binder 42199:42199 <> x:426
+R42204:42207 LF.MoreFP <> bind meth
+R42215:42215 LF.MoreFP <> g:424 var
+R42210:42210 LF.MoreFP <> f:423 var
+R42212:42212 LF.MoreFP <> x:426 var
+R42192:42192 LF.MoreFP <> c:422 var
+prf 42551:42564 <> m_left_id_list
+binder 42579:42579 <> A:427
+binder 42581:42581 <> B:428
+R42594:42594 LF.MoreFP <> A:427 var
+binder 42592:42592 <> x:429
+R42603:42606 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R42602:42602 LF.MoreFP <> A:427 var
+R42607:42610 Coq.Init.Datatypes <> list ind
+R42612:42612 LF.MoreFP <> B:428 var
+binder 42598:42598 <> f:430
+R42635:42637 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R42621:42624 LF.MoreFP <> bind meth
+R42634:42634 LF.MoreFP <> f:430 var
+R42627:42629 LF.MoreFP <> ret meth
+R42631:42631 LF.MoreFP <> x:429 var
+R42638:42638 LF.MoreFP <> f:430 var
+R42640:42640 LF.MoreFP <> x:429 var
+R42673:42681 Coq.Lists.List <> app_nil_r thm
+R42673:42681 Coq.Lists.List <> app_nil_r thm
+prf 42696:42710 <> m_right_id_list
+binder 42725:42725 <> A:431
+R42738:42741 Coq.Init.Datatypes <> list ind
+R42743:42743 LF.MoreFP <> A:431 var
+binder 42734:42734 <> l:432
+R42757:42759 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R42747:42750 LF.MoreFP <> bind meth
+R42754:42756 LF.MoreFP <> ret meth
+R42752:42752 LF.MoreFP <> l:432 var
+R42760:42760 LF.MoreFP <> l:432 var
+prf 42902:42908 <> map_app
+binder 42920:42920 <> A:433
+binder 42922:42922 <> B:434
+R42941:42944 Coq.Init.Datatypes <> list ind
+R42946:42946 LF.MoreFP <> A:433 var
+binder 42933:42934 <> l1:435
+binder 42936:42937 <> l2:436
+R42955:42958 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R42954:42954 LF.MoreFP <> A:433 var
+R42959:42959 LF.MoreFP <> B:434 var
+binder 42950:42950 <> f:437
+R42981:42983 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R42965:42967 Coq.Lists.List <> map def
+R42974:42977 Coq.Init.Datatypes <> ::list_scope:x_'++'_x not
+R42972:42973 LF.MoreFP <> l1:435 var
+R42978:42979 LF.MoreFP <> l2:436 var
+R42969:42969 LF.MoreFP <> f:437 var
+R42984:42986 Coq.Init.Datatypes <> app def
+R43000:43002 Coq.Lists.List <> map def
+R43006:43007 LF.MoreFP <> l2:436 var
+R43004:43004 LF.MoreFP <> f:437 var
+R42989:42991 Coq.Lists.List <> map def
+R42995:42996 LF.MoreFP <> l1:435 var
+R42993:42993 LF.MoreFP <> f:437 var
+prf 43137:43147 <> flatten_app
+binder 43159:43159 <> A:438
+R43177:43180 Coq.Init.Datatypes <> list ind
+R43183:43186 Coq.Init.Datatypes <> list ind
+R43188:43188 LF.MoreFP <> A:438 var
+binder 43169:43170 <> l1:439
+binder 43172:43173 <> l2:440
+R43214:43216 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R43196:43202 LF.MoreFP <> flatten def
+R43207:43210 Coq.Init.Datatypes <> ::list_scope:x_'++'_x not
+R43205:43206 LF.MoreFP <> l1:439 var
+R43211:43212 LF.MoreFP <> l2:440 var
+R43217:43219 Coq.Init.Datatypes <> app def
+R43235:43241 LF.MoreFP <> flatten def
+R43243:43244 LF.MoreFP <> l2:440 var
+R43222:43228 LF.MoreFP <> flatten def
+R43230:43231 LF.MoreFP <> l1:439 var
+R43357:43365 Coq.Lists.List <> app_assoc thm
+R43357:43365 Coq.Lists.List <> app_assoc thm
+R43357:43365 Coq.Lists.List <> app_assoc thm
+prf 43393:43404 <> m_assoc_list
+binder 43419:43419 <> A:441
+binder 43421:43421 <> B:442
+binder 43423:43423 <> C:443
+R43435:43438 Coq.Init.Datatypes <> list ind
+R43440:43440 LF.MoreFP <> A:441 var
+binder 43433:43433 <> l:444
+R43454:43457 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R43453:43453 LF.MoreFP <> A:441 var
+R43458:43461 Coq.Init.Datatypes <> list ind
+R43463:43463 LF.MoreFP <> B:442 var
+binder 43449:43449 <> f:445
+R43472:43475 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R43471:43471 LF.MoreFP <> B:442 var
+R43476:43479 Coq.Init.Datatypes <> list ind
+R43481:43481 LF.MoreFP <> C:443 var
+binder 43467:43467 <> g:446
+R43506:43508 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R43489:43492 LF.MoreFP <> bind meth
+R43505:43505 LF.MoreFP <> g:446 var
+R43495:43498 LF.MoreFP <> bind meth
+R43502:43502 LF.MoreFP <> f:445 var
+R43500:43500 LF.MoreFP <> l:444 var
+R43509:43512 LF.MoreFP <> bind meth
+binder 43521:43521 <> x:447
+R43526:43529 LF.MoreFP <> bind meth
+R43537:43537 LF.MoreFP <> g:446 var
+R43532:43532 LF.MoreFP <> f:445 var
+R43534:43534 LF.MoreFP <> x:447 var
+R43514:43514 LF.MoreFP <> l:444 var
+R43646:43652 LF.MoreFP <> map_app thm
+R43646:43652 LF.MoreFP <> map_app thm
+R43646:43652 LF.MoreFP <> map_app thm
+R43663:43673 LF.MoreFP <> flatten_app thm
+R43663:43673 LF.MoreFP <> flatten_app thm
+R43663:43673 LF.MoreFP <> flatten_app thm
+def 45511:45519 <> eval_log0
+R45524:45526 LF.MoreFP <> exp ind
+binder 45522:45522 <> e:448
+R45537:45539 Coq.Init.Datatypes <> ::type_scope:x_'*'_x not
+R45531:45536 Coq.Strings.String <> string ind
+R45540:45542 Coq.Init.Datatypes <> nat ind
+R45556:45556 LF.MoreFP <> e:448 var
+R45569:45571 LF.MoreFP <> Num constr
+R45578:45578 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R45603:45603 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R45605:45605 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R45585:45588 Coq.Strings.String <> ::string_scope:x_'++'_x not
+R45595:45598 Coq.Strings.String <> ::string_scope:x_'++'_x not
+R45589:45592 LF.MoreFP <> show meth
+R45612:45615 LF.MoreFP <> Plus constr
+R45641:45649 LF.MoreFP <> eval_log0:449 def
+R45669:45669 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R45672:45672 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R45675:45675 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R45701:45709 LF.MoreFP <> eval_log0:449 def
+R45737:45737 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R45740:45740 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R45743:45743 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R45769:45769 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R45846:45866 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R45874:45874 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R45772:45776 Coq.Strings.String <> ::string_scope:x_'++'_x not
+R45779:45801 Coq.Strings.String <> ::string_scope:x_'++'_x not
+R45809:45812 Coq.Strings.String <> ::string_scope:x_'++'_x not
+R45820:45823 Coq.Strings.String <> ::string_scope:x_'++'_x not
+R45813:45816 LF.MoreFP <> show meth
+R45827:45830 Coq.Strings.String <> ::string_scope:x_'++'_x not
+R45838:45841 Coq.Strings.String <> ::string_scope:x_'++'_x not
+R45831:45834 LF.MoreFP <> show meth
+R45869:45871 Coq.Init.Peano <> ::nat_scope:x_'+'_x not
+R45911:45913 LF.MoreFP <> Div constr
+R45939:45947 LF.MoreFP <> eval_log0:449 def
+R45967:45967 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R45970:45970 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R45973:45973 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R45999:46007 LF.MoreFP <> eval_log0:449 def
+R46035:46035 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R46038:46038 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R46041:46041 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R46067:46067 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R46143:46163 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R46171:46171 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R46070:46074 Coq.Strings.String <> ::string_scope:x_'++'_x not
+R46077:46099 Coq.Strings.String <> ::string_scope:x_'++'_x not
+R46106:46109 Coq.Strings.String <> ::string_scope:x_'++'_x not
+R46117:46120 Coq.Strings.String <> ::string_scope:x_'++'_x not
+R46110:46113 LF.MoreFP <> show meth
+R46124:46127 Coq.Strings.String <> ::string_scope:x_'++'_x not
+R46135:46138 Coq.Strings.String <> ::string_scope:x_'++'_x not
+R46128:46131 LF.MoreFP <> show meth
+R46166:46168 Coq.Init.Peano <> ::nat_scope:x_'+'_x not
+R46219:46227 LF.MoreFP <> eval_log0 def
+R46230:46232 LF.MoreFP <> Div constr
+R46235:46237 LF.MoreFP <> Num constr
+R46243:46245 LF.MoreFP <> Num constr
+R46319:46327 LF.MoreFP <> eval_log0 def
+R46330:46332 LF.MoreFP <> Div constr
+R46335:46337 LF.MoreFP <> Num constr
+R46343:46346 LF.MoreFP <> Plus constr
+R46349:46351 LF.MoreFP <> Num constr
+R46357:46359 LF.MoreFP <> Num constr
+def 46481:46489 <> LogString
+binder 46492:46492 <> X:451
+R46518:46520 Coq.Init.Datatypes <> ::type_scope:x_'*'_x not
+R46512:46517 Coq.Strings.String <> string ind
+R46521:46521 LF.MoreFP <> X:451 var
+inst 46534:46545 <> monLogString
+R46549:46553 LF.MoreFP <> Monad class
+R46555:46563 LF.MoreFP <> LogString def
+R46741:46743 LF.MoreFP <> ret meth
+R46573:46576 LF.MoreFP <> bind meth
+binder 46586:46586 <> A:452
+binder 46588:46588 <> B:453
+R46603:46611 LF.MoreFP <> LogString def
+R46613:46613 LF.MoreFP <> A:452 var
+binder 46599:46599 <> x:454
+R46622:46625 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R46621:46621 LF.MoreFP <> A:452 var
+R46626:46634 LF.MoreFP <> LogString def
+R46636:46636 LF.MoreFP <> B:453 var
+binder 46617:46617 <> f:455
+R46670:46670 LF.MoreFP <> x:454 var
+binder 46661:46661 <> s:456
+binder 46664:46664 <> a:457
+R46704:46704 LF.MoreFP <> f:455 var
+R46706:46706 LF.MoreFP <> a:457 var
+binder 46695:46696 <> s':458
+binder 46698:46698 <> b:459
+R46725:46725 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R46733:46733 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R46735:46735 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R46727:46730 Coq.Strings.String <> ::string_scope:x_'++'_x not
+R46726:46726 LF.MoreFP <> s:456 var
+R46731:46732 LF.MoreFP <> s':458 var
+R46734:46734 LF.MoreFP <> b:459 var
+binder 46753:46753 <> A:460
+R46764:46764 LF.MoreFP <> A:460 var
+binder 46762:46762 <> x:461
+R46770:46770 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R46773:46773 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R46775:46775 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R46774:46774 LF.MoreFP <> x:461 var
+def 46792:46795 <> tell
+binder 46798:46798 <> X:462
+R46813:46813 LF.MoreFP <> X:462 var
+binder 46809:46809 <> x:463
+R46819:46819 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R46821:46822 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R46825:46825 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R46820:46820 LF.MoreFP <> x:463 var
+R46823:46824 Coq.Init.Datatypes <> tt constr
+def 46838:46845 <> eval_log
+R46850:46852 LF.MoreFP <> exp ind
+binder 46848:46848 <> e:464
+R46857:46865 LF.MoreFP <> LogString def
+R46867:46869 Coq.Init.Datatypes <> nat ind
+R46883:46883 LF.MoreFP <> e:464 var
+R46897:46899 LF.MoreFP <> Num constr
+R46921:46925 LF.MoreFP Monads :::x_'<-'_x_';;'_x not
+R46957:46968 LF.MoreFP Monads :::x_'<-'_x_';;'_x not
+R46926:46929 LF.MoreFP <> tell def
+R46938:46941 Coq.Strings.String <> ::string_scope:x_'++'_x not
+R46948:46951 Coq.Strings.String <> ::string_scope:x_'++'_x not
+R46942:46945 LF.MoreFP <> show meth
+R46969:46971 LF.MoreFP <> ret meth
+R46981:46984 LF.MoreFP <> Plus constr
+R47006:47009 LF.MoreFP Monads :::x_'<-'_x_';;'_x not
+R47021:47032 LF.MoreFP Monads :::x_'<-'_x_';;'_x not
+R47010:47017 LF.MoreFP <> eval_log:465 def
+binder 47004:47005 <> n1:467
+R47035:47038 LF.MoreFP Monads :::x_'<-'_x_';;'_x not
+R47050:47061 LF.MoreFP Monads :::x_'<-'_x_';;'_x not
+R47039:47046 LF.MoreFP <> eval_log:465 def
+binder 47033:47034 <> n2:468
+R47063:47067 LF.MoreFP Monads :::x_'<-'_x_';;'_x not
+R47119:47130 LF.MoreFP Monads :::x_'<-'_x_';;'_x not
+R47068:47071 LF.MoreFP <> tell def
+R47081:47084 Coq.Strings.String <> ::string_scope:x_'++'_x not
+R47092:47095 Coq.Strings.String <> ::string_scope:x_'++'_x not
+R47085:47088 LF.MoreFP <> show meth
+R47090:47091 LF.MoreFP <> n1:467 var
+R47099:47102 Coq.Strings.String <> ::string_scope:x_'++'_x not
+R47110:47113 Coq.Strings.String <> ::string_scope:x_'++'_x not
+R47103:47106 LF.MoreFP <> show meth
+R47108:47109 LF.MoreFP <> n2:468 var
+R47131:47133 LF.MoreFP <> ret meth
+R47138:47140 Coq.Init.Peano <> ::nat_scope:x_'+'_x not
+R47136:47137 LF.MoreFP <> n1:467 var
+R47141:47142 LF.MoreFP <> n2:468 var
+R47151:47153 LF.MoreFP <> Div constr
+R47176:47179 LF.MoreFP Monads :::x_'<-'_x_';;'_x not
+R47191:47202 LF.MoreFP Monads :::x_'<-'_x_';;'_x not
+R47180:47187 LF.MoreFP <> eval_log:465 def
+binder 47174:47175 <> n1:469
+R47205:47208 LF.MoreFP Monads :::x_'<-'_x_';;'_x not
+R47220:47231 LF.MoreFP Monads :::x_'<-'_x_';;'_x not
+R47209:47216 LF.MoreFP <> eval_log:465 def
+binder 47203:47204 <> n2:470
+R47233:47237 LF.MoreFP Monads :::x_'<-'_x_';;'_x not
+R47288:47299 LF.MoreFP Monads :::x_'<-'_x_';;'_x not
+R47238:47241 LF.MoreFP <> tell def
+R47250:47253 Coq.Strings.String <> ::string_scope:x_'++'_x not
+R47261:47264 Coq.Strings.String <> ::string_scope:x_'++'_x not
+R47254:47257 LF.MoreFP <> show meth
+R47259:47260 LF.MoreFP <> n1:469 var
+R47268:47271 Coq.Strings.String <> ::string_scope:x_'++'_x not
+R47279:47282 Coq.Strings.String <> ::string_scope:x_'++'_x not
+R47272:47275 LF.MoreFP <> show meth
+R47277:47278 LF.MoreFP <> n2:470 var
+R47300:47302 LF.MoreFP <> ret meth
+R47307:47309 Coq.Arith.PeanoNat <> ::nat_scope:x_'/'_x not
+R47305:47306 LF.MoreFP <> n1:469 var
+R47310:47311 LF.MoreFP <> n2:470 var
+R47331:47338 LF.MoreFP <> eval_log def
+R47341:47343 LF.MoreFP <> Div constr
+R47346:47348 LF.MoreFP <> Num constr
+R47354:47356 LF.MoreFP <> Num constr
+R47431:47438 LF.MoreFP <> eval_log def
+R47441:47443 LF.MoreFP <> Div constr
+R47446:47448 LF.MoreFP <> Num constr
+R47454:47457 LF.MoreFP <> Plus constr
+R47460:47462 LF.MoreFP <> Num constr
+R47468:47470 LF.MoreFP <> Num constr
+def 47588:47596 <> eval_cnt0
+R47601:47603 LF.MoreFP <> exp ind
+binder 47599:47599 <> e:471
+R47611:47613 Coq.Init.Datatypes <> ::type_scope:x_'*'_x not
+R47608:47610 Coq.Init.Datatypes <> nat ind
+R47614:47616 Coq.Init.Datatypes <> nat ind
+R47630:47630 LF.MoreFP <> e:471 var
+R47643:47645 LF.MoreFP <> Num constr
+R47652:47652 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R47654:47654 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R47656:47656 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R47663:47666 LF.MoreFP <> Plus constr
+R47692:47700 LF.MoreFP <> eval_cnt0:472 def
+R47720:47720 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R47723:47723 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R47726:47726 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R47752:47760 LF.MoreFP <> eval_cnt0:472 def
+R47788:47788 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R47791:47791 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R47794:47794 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R47800:47800 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R47812:47813 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R47821:47821 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R47808:47810 Coq.Init.Peano <> ::nat_scope:x_'+'_x not
+R47803:47805 Coq.Init.Peano <> ::nat_scope:x_'+'_x not
+R47816:47818 Coq.Init.Peano <> ::nat_scope:x_'+'_x not
+R47858:47860 LF.MoreFP <> Div constr
+R47886:47894 LF.MoreFP <> eval_cnt0:472 def
+R47914:47914 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R47917:47917 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R47920:47920 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R47946:47954 LF.MoreFP <> eval_cnt0:472 def
+R47982:47982 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R47985:47985 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R47988:47988 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R47994:47994 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R48006:48007 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R48015:48015 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R48002:48004 Coq.Init.Peano <> ::nat_scope:x_'+'_x not
+R47997:47999 Coq.Init.Peano <> ::nat_scope:x_'+'_x not
+R48010:48012 Coq.Arith.PeanoNat <> ::nat_scope:x_'/'_x not
+R48063:48071 LF.MoreFP <> eval_cnt0 def
+R48074:48076 LF.MoreFP <> Div constr
+R48079:48081 LF.MoreFP <> Num constr
+R48087:48090 LF.MoreFP <> Plus constr
+R48093:48095 LF.MoreFP <> Num constr
+R48101:48103 LF.MoreFP <> Num constr
+def 48176:48181 <> LogNat
+binder 48184:48184 <> X:474
+R48207:48209 Coq.Init.Datatypes <> ::type_scope:x_'*'_x not
+R48204:48206 Coq.Init.Datatypes <> nat ind
+R48210:48210 LF.MoreFP <> X:474 var
+inst 48223:48231 <> monLogNat
+R48235:48239 LF.MoreFP <> Monad class
+R48241:48246 LF.MoreFP <> LogNat def
+R48417:48419 LF.MoreFP <> ret meth
+R48256:48259 LF.MoreFP <> bind meth
+binder 48269:48269 <> A:475
+binder 48271:48271 <> B:476
+R48286:48291 LF.MoreFP <> LogNat def
+R48293:48293 LF.MoreFP <> A:475 var
+binder 48282:48282 <> x:477
+R48302:48305 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R48301:48301 LF.MoreFP <> A:475 var
+R48306:48311 LF.MoreFP <> LogNat def
+R48313:48313 LF.MoreFP <> B:476 var
+binder 48297:48297 <> f:478
+R48347:48347 LF.MoreFP <> x:477 var
+binder 48338:48338 <> s:479
+binder 48341:48341 <> a:480
+R48381:48381 LF.MoreFP <> f:478 var
+R48383:48383 LF.MoreFP <> a:480 var
+binder 48372:48373 <> s':481
+binder 48375:48375 <> b:482
+R48402:48402 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R48409:48409 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R48411:48411 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R48404:48406 Coq.Init.Peano <> ::nat_scope:x_'+'_x not
+R48403:48403 LF.MoreFP <> s:479 var
+R48407:48408 LF.MoreFP <> s':481 var
+R48410:48410 LF.MoreFP <> b:482 var
+binder 48429:48429 <> A:483
+R48440:48440 LF.MoreFP <> A:483 var
+binder 48438:48438 <> x:484
+R48446:48446 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R48448:48448 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R48450:48450 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R48449:48449 LF.MoreFP <> x:484 var
+def 48465:48472 <> eval_cnt
+R48477:48479 LF.MoreFP <> exp ind
+binder 48475:48475 <> e:485
+R48484:48489 LF.MoreFP <> LogNat def
+R48491:48493 Coq.Init.Datatypes <> nat ind
+R48507:48507 LF.MoreFP <> e:485 var
+R48521:48523 LF.MoreFP <> Num constr
+R48536:48540 LF.MoreFP Monads :::x_'<-'_x_';;'_x not
+R48547:48570 LF.MoreFP Monads :::x_'<-'_x_';;'_x not
+R48541:48544 LF.MoreFP <> tell def
+R48571:48573 LF.MoreFP <> ret meth
+R48583:48586 LF.MoreFP <> Plus constr
+R48599:48602 LF.MoreFP Monads :::x_'<-'_x_';;'_x not
+R48614:48637 LF.MoreFP Monads :::x_'<-'_x_';;'_x not
+R48603:48610 LF.MoreFP <> eval_cnt:486 def
+binder 48597:48598 <> n1:488
+R48640:48643 LF.MoreFP Monads :::x_'<-'_x_';;'_x not
+R48655:48678 LF.MoreFP Monads :::x_'<-'_x_';;'_x not
+R48644:48651 LF.MoreFP <> eval_cnt:486 def
+binder 48638:48639 <> n2:489
+R48680:48684 LF.MoreFP Monads :::x_'<-'_x_';;'_x not
+R48691:48714 LF.MoreFP Monads :::x_'<-'_x_';;'_x not
+R48685:48688 LF.MoreFP <> tell def
+R48715:48717 LF.MoreFP <> ret meth
+R48722:48724 Coq.Init.Peano <> ::nat_scope:x_'+'_x not
+R48720:48721 LF.MoreFP <> n1:488 var
+R48725:48726 LF.MoreFP <> n2:489 var
+R48735:48737 LF.MoreFP <> Div constr
+R48751:48754 LF.MoreFP Monads :::x_'<-'_x_';;'_x not
+R48766:48789 LF.MoreFP Monads :::x_'<-'_x_';;'_x not
+R48755:48762 LF.MoreFP <> eval_cnt:486 def
+binder 48749:48750 <> n1:490
+R48792:48795 LF.MoreFP Monads :::x_'<-'_x_';;'_x not
+R48807:48830 LF.MoreFP Monads :::x_'<-'_x_';;'_x not
+R48796:48803 LF.MoreFP <> eval_cnt:486 def
+binder 48790:48791 <> n2:491
+R48832:48836 LF.MoreFP Monads :::x_'<-'_x_';;'_x not
+R48843:48866 LF.MoreFP Monads :::x_'<-'_x_';;'_x not
+R48837:48840 LF.MoreFP <> tell def
+R48867:48869 LF.MoreFP <> ret meth
+R48874:48876 Coq.Arith.PeanoNat <> ::nat_scope:x_'/'_x not
+R48872:48873 LF.MoreFP <> n1:490 var
+R48877:48878 LF.MoreFP <> n2:491 var
+R48898:48905 LF.MoreFP <> eval_cnt def
+R48908:48910 LF.MoreFP <> Div constr
+R48913:48915 LF.MoreFP <> Num constr
+R48921:48924 LF.MoreFP <> Plus constr
+R48927:48929 LF.MoreFP <> Num constr
+R48935:48937 LF.MoreFP <> Num constr
+rec 49011:49019 <> SemiGroup
+proj 49039:49041 <> dot
+binder 49022:49022 <> A:492
+R49046:49049 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R49045:49045 LF.MoreFP <> A:492 var
+R49051:49054 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R49050:49050 LF.MoreFP <> A:492 var
+R49055:49055 LF.MoreFP <> A:492 var
+rec 49140:49145 <> Monoid
+proj 49183:49184 <> id
+binder 49148:49148 <> A:495
+R49163:49171 LF.MoreFP <> SemiGroup class
+R49173:49173 LF.MoreFP <> A:495 var
+binder 49159:49159 <> H:496
+R49188:49188 LF.MoreFP <> A:495 var
+def 49253:49258 <> Writer
+binder 49261:49261 <> T:499
+R49276:49284 LF.MoreFP <> SemiGroup class
+R49286:49286 LF.MoreFP <> T:499 var
+R49293:49298 LF.MoreFP <> Monoid class
+R49300:49300 LF.MoreFP <> T:499 var
+binder 49322:49322 <> X:500
+R49343:49345 Coq.Init.Datatypes <> ::type_scope:x_'*'_x not
+R49342:49342 LF.MoreFP <> T:499 var
+R49346:49346 LF.MoreFP <> X:500 var
+inst 49359:49367 <> monWriter
+binder 49370:49370 <> T:501
+R49385:49393 LF.MoreFP <> SemiGroup class
+R49395:49395 LF.MoreFP <> T:501 var
+R49402:49407 LF.MoreFP <> Monoid class
+R49409:49409 LF.MoreFP <> T:501 var
+R49423:49427 LF.MoreFP <> Monad class
+R49430:49435 LF.MoreFP <> Writer def
+R49437:49437 LF.MoreFP <> T:501 var
+R49615:49617 LF.MoreFP <> ret meth
+R49448:49451 LF.MoreFP <> bind meth
+binder 49461:49461 <> A:502
+binder 49463:49463 <> B:503
+R49478:49483 LF.MoreFP <> Writer def
+R49487:49487 LF.MoreFP <> A:502 var
+binder 49474:49474 <> x:504
+R49496:49499 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R49495:49495 LF.MoreFP <> A:502 var
+R49500:49505 LF.MoreFP <> Writer def
+R49509:49509 LF.MoreFP <> B:503 var
+binder 49491:49491 <> f:505
+R49543:49543 LF.MoreFP <> x:504 var
+binder 49534:49534 <> s:506
+binder 49537:49537 <> a:507
+R49577:49577 LF.MoreFP <> f:505 var
+R49579:49579 LF.MoreFP <> a:507 var
+binder 49568:49569 <> s':508
+binder 49571:49571 <> b:509
+R49598:49598 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R49607:49607 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R49609:49609 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R49599:49601 LF.MoreFP <> dot meth
+R49605:49606 LF.MoreFP <> s':508 var
+R49603:49603 LF.MoreFP <> s:506 var
+R49608:49608 LF.MoreFP <> b:509 var
+binder 49627:49627 <> A:510
+R49638:49638 LF.MoreFP <> A:510 var
+binder 49636:49636 <> x:511
+R49644:49644 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R49647:49647 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R49649:49649 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R49645:49646 LF.MoreFP <> id meth
+R49648:49648 LF.MoreFP <> x:511 var
+inst 49664:49678 <> stringSemiGroup
+R49682:49690 LF.MoreFP <> SemiGroup class
+R49692:49697 Coq.Strings.String <> string ind
+R49707:49709 LF.MoreFP <> dot meth
+R49714:49719 Coq.Strings.String <> append def
+inst 49734:49745 <> stringMonoid
+R49749:49754 LF.MoreFP <> Monoid class
+R49756:49761 Coq.Strings.String <> string ind
+R49771:49772 LF.MoreFP <> id meth
+def 49793:49801 <> eval_log'
+R49806:49808 LF.MoreFP <> exp ind
+binder 49804:49804 <> e:512
+R49813:49818 LF.MoreFP <> Writer def
+R49827:49829 Coq.Init.Datatypes <> nat ind
+R49820:49825 Coq.Strings.String <> string ind
+R49843:49843 LF.MoreFP <> e:512 var
+R49857:49859 LF.MoreFP <> Num constr
+R49881:49885 LF.MoreFP Monads :::x_'<-'_x_';;'_x not
+R49917:49928 LF.MoreFP Monads :::x_'<-'_x_';;'_x not
+R49886:49889 LF.MoreFP <> tell def
+R49898:49901 Coq.Strings.String <> ::string_scope:x_'++'_x not
+R49908:49911 Coq.Strings.String <> ::string_scope:x_'++'_x not
+R49902:49905 LF.MoreFP <> show meth
+R49929:49931 LF.MoreFP <> ret meth
+R49941:49944 LF.MoreFP <> Plus constr
+R49966:49969 LF.MoreFP Monads :::x_'<-'_x_';;'_x not
+R49982:49993 LF.MoreFP Monads :::x_'<-'_x_';;'_x not
+R49970:49978 LF.MoreFP <> eval_log':513 def
+binder 49964:49965 <> n1:515
+R49996:49999 LF.MoreFP Monads :::x_'<-'_x_';;'_x not
+R50012:50023 LF.MoreFP Monads :::x_'<-'_x_';;'_x not
+R50000:50008 LF.MoreFP <> eval_log':513 def
+binder 49994:49995 <> n2:516
+R50025:50029 LF.MoreFP Monads :::x_'<-'_x_';;'_x not
+R50081:50092 LF.MoreFP Monads :::x_'<-'_x_';;'_x not
+R50030:50033 LF.MoreFP <> tell def
+R50043:50046 Coq.Strings.String <> ::string_scope:x_'++'_x not
+R50054:50057 Coq.Strings.String <> ::string_scope:x_'++'_x not
+R50047:50050 LF.MoreFP <> show meth
+R50052:50053 LF.MoreFP <> n1:515 var
+R50061:50064 Coq.Strings.String <> ::string_scope:x_'++'_x not
+R50072:50075 Coq.Strings.String <> ::string_scope:x_'++'_x not
+R50065:50068 LF.MoreFP <> show meth
+R50070:50071 LF.MoreFP <> n2:516 var
+R50093:50095 LF.MoreFP <> ret meth
+R50100:50102 Coq.Init.Peano <> ::nat_scope:x_'+'_x not
+R50098:50099 LF.MoreFP <> n1:515 var
+R50103:50104 LF.MoreFP <> n2:516 var
+R50113:50115 LF.MoreFP <> Div constr
+R50138:50141 LF.MoreFP Monads :::x_'<-'_x_';;'_x not
+R50154:50165 LF.MoreFP Monads :::x_'<-'_x_';;'_x not
+R50142:50150 LF.MoreFP <> eval_log':513 def
+binder 50136:50137 <> n1:517
+R50168:50171 LF.MoreFP Monads :::x_'<-'_x_';;'_x not
+R50184:50195 LF.MoreFP Monads :::x_'<-'_x_';;'_x not
+R50172:50180 LF.MoreFP <> eval_log':513 def
+binder 50166:50167 <> n2:518
+R50197:50201 LF.MoreFP Monads :::x_'<-'_x_';;'_x not
+R50252:50263 LF.MoreFP Monads :::x_'<-'_x_';;'_x not
+R50202:50205 LF.MoreFP <> tell def
+R50214:50217 Coq.Strings.String <> ::string_scope:x_'++'_x not
+R50225:50228 Coq.Strings.String <> ::string_scope:x_'++'_x not
+R50218:50221 LF.MoreFP <> show meth
+R50223:50224 LF.MoreFP <> n1:517 var
+R50232:50235 Coq.Strings.String <> ::string_scope:x_'++'_x not
+R50243:50246 Coq.Strings.String <> ::string_scope:x_'++'_x not
+R50236:50239 LF.MoreFP <> show meth
+R50241:50242 LF.MoreFP <> n2:518 var
+R50264:50266 LF.MoreFP <> ret meth
+R50271:50273 Coq.Arith.PeanoNat <> ::nat_scope:x_'/'_x not
+R50269:50270 LF.MoreFP <> n1:517 var
+R50274:50275 LF.MoreFP <> n2:518 var
+R50296:50304 LF.MoreFP <> eval_log' def
+R50307:50309 LF.MoreFP <> Div constr
+R50312:50314 LF.MoreFP <> Num constr
+R50320:50323 LF.MoreFP <> Plus constr
+R50326:50328 LF.MoreFP <> Num constr
+R50334:50336 LF.MoreFP <> Num constr
+inst 50434:50445 <> natSemiGroup
+R50449:50457 LF.MoreFP <> SemiGroup class
+R50459:50461 Coq.Init.Datatypes <> nat ind
+R50471:50473 LF.MoreFP <> dot meth
+R50478:50481 Coq.Init.Peano <> plus syndef
+inst 50496:50504 <> natMonoid
+R50508:50513 LF.MoreFP <> Monoid class
+R50515:50517 Coq.Init.Datatypes <> nat ind
+R50527:50528 LF.MoreFP <> id meth
+def 50548:50556 <> eval_cnt'
+R50561:50563 LF.MoreFP <> exp ind
+binder 50559:50559 <> e:519
+R50568:50573 LF.MoreFP <> Writer def
+R50579:50581 Coq.Init.Datatypes <> nat ind
+R50575:50577 Coq.Init.Datatypes <> nat ind
+R50595:50595 LF.MoreFP <> e:519 var
+R50609:50611 LF.MoreFP <> Num constr
+R50624:50628 LF.MoreFP Monads :::x_'<-'_x_';;'_x not
+R50635:50658 LF.MoreFP Monads :::x_'<-'_x_';;'_x not
+R50629:50632 LF.MoreFP <> tell def
+R50659:50661 LF.MoreFP <> ret meth
+R50671:50674 LF.MoreFP <> Plus constr
+R50687:50690 LF.MoreFP Monads :::x_'<-'_x_';;'_x not
+R50703:50726 LF.MoreFP Monads :::x_'<-'_x_';;'_x not
+R50691:50699 LF.MoreFP <> eval_cnt':520 def
+binder 50685:50686 <> n1:522
+R50729:50732 LF.MoreFP Monads :::x_'<-'_x_';;'_x not
+R50745:50768 LF.MoreFP Monads :::x_'<-'_x_';;'_x not
+R50733:50741 LF.MoreFP <> eval_cnt':520 def
+binder 50727:50728 <> n2:523
+R50770:50774 LF.MoreFP Monads :::x_'<-'_x_';;'_x not
+R50781:50804 LF.MoreFP Monads :::x_'<-'_x_';;'_x not
+R50775:50778 LF.MoreFP <> tell def
+R50805:50807 LF.MoreFP <> ret meth
+R50812:50814 Coq.Init.Peano <> ::nat_scope:x_'+'_x not
+R50810:50811 LF.MoreFP <> n1:522 var
+R50815:50816 LF.MoreFP <> n2:523 var
+R50825:50827 LF.MoreFP <> Div constr
+R50841:50844 LF.MoreFP Monads :::x_'<-'_x_';;'_x not
+R50857:50880 LF.MoreFP Monads :::x_'<-'_x_';;'_x not
+R50845:50853 LF.MoreFP <> eval_cnt':520 def
+binder 50839:50840 <> n1:524
+R50883:50886 LF.MoreFP Monads :::x_'<-'_x_';;'_x not
+R50899:50922 LF.MoreFP Monads :::x_'<-'_x_';;'_x not
+R50887:50895 LF.MoreFP <> eval_cnt':520 def
+binder 50881:50882 <> n2:525
+R50924:50928 LF.MoreFP Monads :::x_'<-'_x_';;'_x not
+R50935:50958 LF.MoreFP Monads :::x_'<-'_x_';;'_x not
+R50929:50932 LF.MoreFP <> tell def
+R50959:50961 LF.MoreFP <> ret meth
+R50966:50968 Coq.Arith.PeanoNat <> ::nat_scope:x_'/'_x not
+R50964:50965 LF.MoreFP <> n1:524 var
+R50969:50970 LF.MoreFP <> n2:525 var
+R50990:50998 LF.MoreFP <> eval_cnt' def
+R51001:51003 LF.MoreFP <> Div constr
+R51006:51008 LF.MoreFP <> Num constr
+R51014:51017 LF.MoreFP <> Plus constr
+R51020:51022 LF.MoreFP <> Num constr
+R51028:51030 LF.MoreFP <> Num constr
+R51078:51083 LF.MoreFP Monads <> sec
