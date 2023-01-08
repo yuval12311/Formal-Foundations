@@ -459,15 +459,60 @@ Check <{[x:=true] x}>.
 Inductive substi (s : tm) (x : string) : tm -> tm -> Prop :=
   | s_var1 :
       substi s x (tm_var x) s
-  (* FILL IN HERE *)
-.
+  | s_var2 :
+      forall y,
+      x <> y ->
+      substi s x (tm_var y) (tm_var y)
+  | s_abst1 :
+      forall t1 T,
+      substi s x (<{\x:T, t1}>) (<{\x:T, t1}>)
+  | s_abst2 :
+      forall y t1 t2 T,
+      x <> y ->
+      substi s x t1 t2 ->
+      substi s x (<{\y:T, t1}>) (<{\y:T, t2}>)
+  | s_app :
+      forall t1 t2 t3 t4,
+      substi s x t1 t2 ->
+      substi s x t3 t4 ->
+      substi s x (<{t1 t3}>) (<{t2 t4}>)
+  | s_true :
+      substi s x <{true}> <{true}>
+  | s_false :
+      substi s x <{false}> <{false}>
+  | s_if :
+      forall t1 t2 t3 t4 t5 t6,
+      substi s x t1 t2 ->
+      substi s x t3 t4 ->
+      substi s x t5 t6 ->
+      substi s x (<{if t1 then t3 else t5}>) (<{if t2 then t4 else t6}>).
 
 Hint Constructors substi : core.
 
 Theorem substi_correct : forall s x t t',
   <{ [x:=s]t }> = t' <-> substi s x t t'.
 Proof.
-  (* FILL IN HERE *) Admitted.
+  split; intros. generalize dependent t'.
+  -induction t; intros; subst; auto.
+    + destruct ((x0 =? s0)%string) eqn:E.
+      * apply eqb_eq in E. subst. simpl. rewrite eqb_refl. apply s_var1.
+      * subst. simpl. rewrite E. apply eqb_neq in E. apply s_var2. apply E.
+    +  simpl. apply s_app.
+      * apply IHt1. reflexivity.
+      * apply IHt2. reflexivity.
+    + destruct ((x0 =? s0)%string) eqn:E.
+      * apply eqb_eq in E. subst. simpl. rewrite eqb_refl. apply s_abst1.
+      * subst. simpl. rewrite E. apply eqb_neq in E. apply s_abst2. apply E. apply IHt. reflexivity.
+    + simpl. apply s_if. apply IHt1; reflexivity. apply IHt2; reflexivity. apply IHt3; reflexivity.
+  - induction H; auto.
+    + simpl. rewrite eqb_refl. reflexivity.
+    + simpl. apply eqb_neq in H. rewrite H. reflexivity.
+    + simpl. rewrite eqb_refl. reflexivity.
+    + simpl. apply eqb_neq in H. rewrite H. rewrite IHsubsti. reflexivity.
+    + subst. reflexivity.
+    + subst. reflexivity.
+ Qed.
+
 (** [] *)
 
 (* ================================================================= *)
@@ -816,7 +861,16 @@ Example typing_example_3 :
                (y (x z z)) \in
       T.
 Proof.
-  (* FILL IN HERE *) Admitted.
+    exists <{(Bool->Bool->Bool)->(Bool->Bool)->Bool->Bool}>.
+    apply T_Abs. apply T_Abs. apply T_Abs. eapply T_App.
+    -apply T_Var. reflexivity.
+    -eapply T_App.
+      +eapply T_App. 
+        *apply T_Var. reflexivity.
+        *apply T_Var. reflexivity.
+      +apply T_Var. reflexivity.
+Qed.
+  
 (** [] *)
 
 (** We can also show that some terms are _not_ typable.  For example,
@@ -858,7 +912,19 @@ Example typing_nonexample_3 :
         empty |-
           \x:S, x x \in T).
 Proof.
-  (* FILL IN HERE *) Admitted.
+  intros Hc. destruct Hc.
+  inversion H; subst; clear H.
+  inversion H0; subst; clear H0.
+  inversion H5; subst; clear H5.
+  inversion H2; subst; clear H2.
+  inversion H4; subst; clear H4.
+  inversion H1; subst; clear H1.
+  
+  inversion H2; subst; clear H2.
+  induction T2.
+  -discriminate.
+  -inversion H0; subst. apply IHT2_1 in H1. apply H1.
+Qed.
 (** [] *)
 
 End STLC.
@@ -1017,19 +1083,25 @@ Fixpoint subst (x : string) (s : tm) (t : tm) : tm :=
 
   (* option *)
   (* FILL IN HERE *)
-  | _ => t  (* ... and delete this line when you finish the exercise *)
+  | <{none}> =>
+      <{none}>
+  | <{some y}> =>
+      <{some ([x:=s] y)}>
+  | <{case f of | none => t1 | some y => t2}> =>
+      <{case ([x:=s] f) of | none => ([x:=s] t1) | some y => {if String.eqb x y then t2 else <{([x:=s] t2)}> }}>
+    (* ... and delete this line when you finish the exercise *)
   end
 
 where "'[' x ':=' s ']' t" := (subst x s t) (in custom stlc_op).
 
 Example subst1 : <{[x := false] (case x of | none => false | some y => x)}> = <{(case false of | none => false | some y => false)}>.
-Proof. (* FILL IN HERE *) Admitted.
+Proof. reflexivity. Qed.
 
 Example subst2 : <{[x := false] (case x of | none => x | some x => x)}> = <{(case false of | none => false | some x => x)}>.
-Proof. (* FILL IN HERE *) Admitted.
+Proof. reflexivity. Qed.
 
 Example subst3 : <{[x := some y] (some (\y: Bool, x (\x: Bool, y)))}> = <{[x := false] (some (\y: Bool, (some y) (\x: Bool, y)))}>.
-Proof. (* FILL IN HERE *) Admitted.
+Proof. reflexivity. Qed.
 
 (** [] *)
 
@@ -1080,6 +1152,16 @@ Inductive step : tm -> tm -> Prop :=
       <{if t1 then t2 else t3}> --> <{if t1' then t2 else t3}>
 
   (* Complete the option case. *)
+  | ST_Option : forall  t1 t1',
+      t1 --> t1' ->
+      <{some t1}> --> <{some t1'}>
+  | ST_CaseNone : forall x t2 t3,
+      <{case none of | none => t2 | some x => t3}> --> t2
+  | ST_CaseSome : forall x y t2 t3,
+      <{case (some y) of | none => t2 | some x => t3}> --> <{ [x:=y]t3 }>
+  | ST_Case : forall t1 t1' t2  t3,
+      t1 --> t1' ->
+      <{case t1 of | none => t2 | some x => t3}> --> <{case t1' of | none => t2 | some x => t3}>
 
   (* option *)
   (* FILL IN HERE *)
@@ -1095,13 +1177,31 @@ Hint Constructors step : core.
 tactic defined in the [Smallstep] chapter to prove the following. *)
 
 Example step1 : <{(\x: option Bool, case x of | none => false | some x => x) (some true)}> -->* <{true}>.
-Proof. (* FILL IN HERE *) Admitted.
+Proof. 
+ eapply multi_step.
+  -eapply ST_AppAbs. apply v_some. apply v_true.
+  -eapply multi_step.
+    + simpl. eapply ST_CaseSome.
+    + eapply multi_refl. 
+Qed.
 
 Example step2 : <{(\x: option Bool, case x of | none => false | some x => x) (some false)}> -->* <{false}>.
-Proof. (* FILL IN HERE *) Admitted.
+Proof. 
+ eapply multi_step.
+  -eapply ST_AppAbs. apply v_some. apply v_false.
+  -eapply multi_step.
+    + simpl. eapply ST_CaseSome.
+    + eapply multi_refl.
+Qed.
 
 Example step3 : <{(\x: option Bool, case x of | none => false | some x => x) none}> -->* <{false}>.
-Proof. (* FILL IN HERE *) Admitted.
+Proof. 
+eapply multi_step.
+  -eapply ST_AppAbs. apply v_none.
+  -eapply multi_step.
+    + simpl. eapply ST_CaseNone.
+    + eapply multi_refl.
+Qed.
 
 (** [] *)
 
@@ -1136,7 +1236,18 @@ Inductive has_type : context -> tm -> ty -> Prop :=
        Gamma |- if t1 then t2 else t3 \in T1
 
   (* Complete the option case. *)
+  | T_OptionSome : forall t1 T1 Gamma,
+      Gamma |- t1 \in T1 ->
+      Gamma |- some t1 \in option T1
+  | T_OptionNone : forall T1 Gamma,
+      Gamma |- none \in option T1
 
+  | T_Case : forall x t1 t2 t3 T1 T2 Gamma,
+      Gamma |- t1 \in (option T1) ->
+      Gamma |- t2 \in T2 ->
+      x |-> T1; Gamma |- t3 \in T2 ->
+      Gamma |- case t1 of | none => t2 | some x => t3 \in T2
+      
   (* option *)
   (* FILL IN HERE *)
 
@@ -1145,14 +1256,37 @@ where "Gamma '|-' t '\in' T" := (has_type Gamma t T).
 Hint Constructors has_type : core.
 
 Example type1 : empty |- (\x: option Bool, case x of | none => false | some x => x) (some true) \in Bool.
-Proof. (* FILL IN HERE *) Admitted.
+Proof. 
+  eapply T_App.
+    - eapply T_Abs.
+      + eapply T_Case.
+        * apply T_Var. reflexivity.
+        * apply T_False.
+        * apply T_Var. reflexivity.
+    - apply T_OptionSome. apply T_True.
+Qed.
 
 Example type2 : empty |- (\x: option Bool, case x of | none => false | some x => x) (some false) \in Bool.
-Proof. (* FILL IN HERE *) Admitted.
+Proof. 
+  eapply T_App.
+    - eapply T_Abs.
+      + eapply T_Case.
+        * apply T_Var. reflexivity.
+        * apply T_False.
+        * apply T_Var. reflexivity.
+    - apply T_OptionSome. apply T_False.
+Qed.
 
 Example type3 : empty |- (\x: option Bool, case x of | none => false | some x => x) none \in Bool.
-Proof. (* FILL IN HERE *) Admitted.
-
+Proof.  
+  eapply T_App.
+    - eapply T_Abs.
+      + eapply T_Case.
+        * apply T_Var. reflexivity.
+        * apply T_False.
+        * apply T_Var. reflexivity.
+    - apply T_OptionNone.
+Qed.
 (** [] *)
 
 End OptionSTLC.
@@ -1348,8 +1482,20 @@ Compute escape_stlc. (* <{\x:Bool, x}> *)
 (** **** Exercise: 5 stars, standard (CBN_Unit.make_cbn) *)
 Fixpoint make_cbn (t : tm) : tm :=
   match t with
-  (* FILL IN HERE *)
-  | _ => t
+  | tm_var y =>
+      <{y unit}>
+  | <{\y:T, t1}> =>
+      <{\y:Unit->T, {make_cbn t1}}>
+  | <{t1 t2}> =>
+      tm_app (make_cbn t1) <{\x:Unit, ({make_cbn t2})}>
+  | <{true}> =>
+      <{true}>
+  | <{false}> =>
+      <{false}>
+  | <{if t1 then t2 else t3}> =>
+      <{if {make_cbn t1} then {make_cbn t2} else {make_cbn t3}}>
+  | <{unit}> => <{unit}>
+ 
   end.
 (** [] *)
 
@@ -1362,7 +1508,9 @@ Lemma cbn1 :
        (make_cbn <{ notB (notB true) }>)
   -->* <{ true }>.
 Proof.
-  (* FILL IN HERE *) Admitted.
+simpl. normalize. Qed.
+
+  (* FILL IN HERE *) 
 (** [] *)
 
 (** **** Exercise: 1 star, standard (CBN_Unit.cbn2) *)
@@ -1370,7 +1518,7 @@ Lemma cbn2 :
        (make_cbn <{ (idBB notB) (notB true)}>)
   -->* <{ true }>.
 Proof.
-  (* FILL IN HERE *) Admitted.
+simpl. normalize. Qed.
 (** [] *)
 
 (** **** Exercise: 1 star, standard (CBN_Unit.cbn3) *)
@@ -1380,7 +1528,7 @@ Lemma cbn3 : forall t,
 Proof.
 (* If your definition is correct, 
 you never need to destruct/induct on t. *)
-  (* FILL IN HERE *) Admitted.
+intros t. simpl. normalize. Qed.
 (** [] *)
 
 End CBN_Unit.
